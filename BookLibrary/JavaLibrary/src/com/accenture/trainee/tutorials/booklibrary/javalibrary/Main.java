@@ -1,11 +1,7 @@
 package com.accenture.trainee.tutorials.booklibrary.javalibrary;
 
 import java.io.*;
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
-
-import static com.accenture.trainee.tutorials.booklibrary.javalibrary.Book.quantity;
 
 
 public class Main {
@@ -15,7 +11,7 @@ public class Main {
     public static Boolean running = true;
 
     public static Library lib = new Library();
-    public static List<Student> students = new ArrayList<>();
+    public static StudentList students = new StudentList();
 
     public static void main(String[] args) {
 
@@ -75,7 +71,10 @@ public class Main {
                     showAllStudents();
                     break;
                 case 8:
-                    // TODO 8: Student can Check Out Book From Library (if registered).Student can not Check Out max than 3 BooksYou can only borrow a Book If it is Available in Library
+                    // TODO 8: Student can Check Out Book From Library (if registered).
+                    //  Student can not Check Out max than 3 Books.
+                    //  You can only borrow a Book If it is Available in Library
+                    borrowBook();
                     break;
                 case 9:
                     //TODO 9: Student can Check In Book to Library.
@@ -122,11 +121,14 @@ public class Main {
     }
 
     private static void updateQuantity() {
-        System.out.println("\nCurrent quantity is: " + quantity);
-        System.out.println("\nUpdate the quantity: ");
-        int newQuantity = scanner.nextInt();
-        quantity = newQuantity;
-        System.out.println("\nUpdated quantity is: " + quantity);
+        int newQuantity;
+        String lookingTitle;
+        System.out.println("\nEnter the title of book you would like to update: ");
+        lookingTitle = scanner.next();
+        System.out.println("\nEnter the new quantity: ");
+        newQuantity = scanner.nextInt();
+
+        lib.searchingTitle(lookingTitle, newQuantity);
 
     }
 
@@ -136,22 +138,22 @@ public class Main {
     }
 
     private static void searchingSerNum() {
+        int lookingNumber;
         System.out.println("\n Write serial number of book you are looking for: ");
-        int lookingNumber = scanner.nextInt();
+        lookingNumber = scanner.nextInt();
         lib.searchingSerNum(lookingNumber);
     }
 
     private static void searchingAuthor() {
+        String lookingAuthor;
         System.out.println("\n Write Author of book you are looking for: ");
-        String lookingAuthor = scanner.next();
+        lookingAuthor = scanner.next();
         lib.searchingAuthor(lookingAuthor);
     }
 
     private static void registeringStudent() {
         String studentName;
         int regNumber;
-        String titleOfBorrowedBook = null;
-        boolean hasBorrowedBook = false;
 
         System.out.println("\nEnter the Student Name: ");
         studentName = scanner.next();
@@ -159,13 +161,22 @@ public class Main {
         System.out.println("\nEnter the Student Registration Number: ");
         regNumber = scanner.nextInt();
 
-        Student s = new Student(studentName, regNumber, titleOfBorrowedBook, hasBorrowedBook);
+        Student s = new Student(studentName, regNumber);
         // pridaj studenta do zoznamu studentov
-        students.add(s);
+        students.registerStudent(s);
         System.out.println("\nStudent was registered successfully");
 
 
     }
+
+
+    private static void borrowBook() {
+        String borrowingTitle;
+        System.out.println("\nEnter the title of book you are looking for: ");
+        borrowingTitle = scanner.next();
+        lib.borrowBook(borrowingTitle);
+    }
+
 
     private static void saveAndQuit() {
         System.out.println("Enter the file name to load: ");
@@ -201,7 +212,7 @@ public class Main {
                 fis = new FileInputStream(file);
                 in = new ObjectInputStream(fis);
                 lib = (Library) in.readObject();
-                students = (List<Student>) in.readObject();
+                students = (StudentList) in.readObject();
                 fis.close();
                 in.close();
 

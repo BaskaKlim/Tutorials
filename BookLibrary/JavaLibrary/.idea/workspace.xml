@@ -2,7 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8cd2f766-6b20-4306-b2d5-07661bf612b7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/MyLibrary .ser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/accenture/trainee/tutorials/booklibrary/javalibrary/StudentList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyLibraryCollection .ser" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaLibrary/com/accenture/trainee/tutorials/booklibrary/javalibrary/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaLibrary/com/accenture/trainee/tutorials/booklibrary/javalibrary/Book.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaLibrary/com/accenture/trainee/tutorials/booklibrary/javalibrary/Library.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaLibrary/com/accenture/trainee/tutorials/booklibrary/javalibrary/Library.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaLibrary/com/accenture/trainee/tutorials/booklibrary/javalibrary/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaLibrary/com/accenture/trainee/tutorials/booklibrary/javalibrary/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaLibrary/com/accenture/trainee/tutorials/booklibrary/javalibrary/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaLibrary/com/accenture/trainee/tutorials/booklibrary/javalibrary/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/accenture/trainee/tutorials/booklibrary/javalibrary/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/accenture/trainee/tutorials/booklibrary/javalibrary/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/accenture/trainee/tutorials/booklibrary/javalibrary/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/accenture/trainee/tutorials/booklibrary/javalibrary/Library.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/accenture/trainee/tutorials/booklibrary/javalibrary/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/accenture/trainee/tutorials/booklibrary/javalibrary/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/accenture/trainee/tutorials/booklibrary/javalibrary/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/accenture/trainee/tutorials/booklibrary/javalibrary/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,18 +29,22 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="ProjectId" id="1Wni7DVTJ1V2IkzIDePbZGGvi6g" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/Accenture_Trainee/IdeaProjects/MyLibrary" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
@@ -72,15 +88,21 @@
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+  </component>
   <component name="WindowStateProjectService">
-    <state x="371" y="97" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1579867908160">
+    <state x="371" y="97" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1580721026569">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="371" y="97" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1280.680@0.0.1280.680" timestamp="1579867908160" />
-    <state x="345" y="25" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog" timestamp="1579868038108">
+    <state x="371" y="97" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1280.680@0.0.1280.680" timestamp="1580721026569" />
+    <state x="345" y="25" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog" timestamp="1580733863073">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="345" y="25" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog/0.0.1280.680@0.0.1280.680" timestamp="1579868038108" />
+    <state x="345" y="25" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog/0.0.1280.680@0.0.1280.680" timestamp="1580733863073" />
     <state x="371" y="89" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1579868691695">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -89,33 +111,37 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="97" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1579854345110" />
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1579868980888">
+    <state width="1237" height="176" key="GridCell.Tab.0.bottom" timestamp="1580736653242">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1579868980888" />
-    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1579868980888">
+    <state width="1237" height="176" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1580736653242" />
+    <state width="1237" height="176" key="GridCell.Tab.0.center" timestamp="1580736653242">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1579868980888" />
-    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1579868980888">
+    <state width="1237" height="176" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1580736653242" />
+    <state width="1237" height="176" key="GridCell.Tab.0.left" timestamp="1580736653242">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1579868980888" />
-    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1579868980888">
+    <state width="1237" height="176" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1580736653242" />
+    <state width="1237" height="176" key="GridCell.Tab.0.right" timestamp="1580736653242">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1579868980888" />
-    <state x="297" y="112" key="com.intellij.ide.util.TipDialog" timestamp="1579853634225">
+    <state width="1237" height="176" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1580736653242" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1579872196983">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="297" y="112" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1579853634225" />
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1579872196983" />
+    <state x="297" y="112" key="com.intellij.ide.util.TipDialog" timestamp="1580717991774">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="297" y="112" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1580717991774" />
     <state x="371" y="97" key="extract.method.dialog" timestamp="1579861310045">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="371" y="97" key="extract.method.dialog/0.0.1280.680@0.0.1280.680" timestamp="1579861310045" />
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1579854947151">
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1580734260866">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1579854947151" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1580734260866" />
   </component>
 </project>

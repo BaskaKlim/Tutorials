@@ -5,16 +5,14 @@ import java.io.Serializable;
 public class Book implements Serializable {
     String title;
     String author;
-    static int quantity;
+    int quantity;
     int serialNumber;
+    boolean isBorrowed;
+
 
     //default constructor
 
     public Book() {
-        title = null;
-        author = null;
-        quantity = 0;
-        serialNumber = 0;
     }
 
     //constructor with parameters
@@ -30,8 +28,10 @@ public class Book implements Serializable {
         return "\nBook Title: " + title
                 + "\nBook Author: " + author
                 + "\nQuantity: " + quantity
-                + "\nSerialNumber: " + serialNumber;
+                + "\nSerialNumber: " + serialNumber
+                + "\nBorrowed: " + isBorrowed +"\n";
     }
+
 
 }
 
