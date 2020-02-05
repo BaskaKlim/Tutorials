@@ -3,11 +3,15 @@ package com.accenture.trainee.tutorials.booklibrary.javalibrary;
 import java.io.Serializable;
 
 public class Book implements Serializable {
+    private static final long serialVersionUID = 3838086913977271710L; // na opravenie java.io.InvalidClassException: local class incompatible:
+
+
     String title;
     String author;
     int quantity;
     int serialNumber;
     boolean isBorrowed;
+    int borrowedPieces;
 
 
     //default constructor
@@ -29,7 +33,8 @@ public class Book implements Serializable {
                 + "\nBook Author: " + author
                 + "\nQuantity: " + quantity
                 + "\nSerialNumber: " + serialNumber
-                + "\nBorrowed: " + isBorrowed +"\n";
+                + "\nBorrowed: " + isBorrowed
+                +"\nBorrowed pieces: "+ borrowedPieces +"\n";
     }
 
 

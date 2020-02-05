@@ -5,7 +5,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-public class Library implements Serializable {
+public class Library extends StudentList implements Serializable {
+    private static final long serialVersionUID = -5492124493279067671L;
 
     private List<Book> collection;
     private List<Book> borrowedBooks;
@@ -14,12 +15,6 @@ public class Library implements Serializable {
         collection = new ArrayList<>();
         borrowedBooks = new ArrayList<>();
     }
-
-
-    public void addBook(Book book) {
-        collection.add(book);
-    }
-
 
     @Override
 
@@ -34,6 +29,11 @@ public class Library implements Serializable {
             total = total + b.toString();
         }
         return total;
+    }
+
+
+    public void addBook(Book book) {
+        collection.add(book);
     }
 
     public void searchingSerNum(int searchingSerNum) {
@@ -94,31 +94,28 @@ public class Library implements Serializable {
         }
     }
 
-
     public void borrowBook(String borrowingTitle) {
         int flag = 0;
 
         for (int i = 0; i < collection.size(); i++) {
             // vezmi knihu na tomto indexe a skontroluj jej title
             Book b = collection.get(i);
+            Book borrowedBook = new Book(b.title, b.author, 0, b.serialNumber);
+            borrowedBook.isBorrowed = false;
 
             if (b.title.equals(borrowingTitle)) {
                 System.out.println("\n Nasiel som knihu: " + borrowingTitle
                         + "\n Quantity: " + b.quantity
                         + "\n Author: " + b.author);
 
-                Book borrowedBook = new Book();
-                borrowedBook.title = b.title;
-                borrowedBook.author = b.author;
-                borrowedBook.serialNumber = b.serialNumber;
-                borrowedBook.quantity = 0;
-                borrowedBook.isBorrowed = false;
-
                 if (b.quantity >= 1) {
                     b.quantity--;
+                    b.borrowedPieces++;
+                    b.isBorrowed = true;
 
-                    borrowedBook.isBorrowed = true;
                     borrowedBook.quantity++;
+                    borrowedBook.isBorrowed = true;
+
                     borrowedBooks.add(borrowedBook);
 
                     System.out.println("\n Book " + borrowingTitle + " has been successfully borrowed.  Title is still  available for booking in: " + b.quantity + " pieces"
@@ -136,6 +133,35 @@ public class Library implements Serializable {
 
         }
     }
+
+    public void bookReturn(String returnTitle) {
+        int flag = 0;
+
+        for (int j = 0; j < borrowedBooks.size(); j++) {
+            Book bb = borrowedBooks.get(j);
+            Book b = collection.get(j);
+
+            if (bb.title.equals(returnTitle)) {
+                bb.quantity--;
+                bb.isBorrowed = false;
+                if (b.title.equals(returnTitle)) {
+                    b.quantity++;
+                    b.isBorrowed = false;
+                    b.borrowedPieces--;
+
+                    flag++;
+
+                }
+            }
+
+            System.out.println("\n The title " + returnTitle + " was successfully returned to library.");
+        }
+        if (flag == 0) {
+            System.out.println("\n You cant return the book, the title" + returnTitle + " is not borrowed.");
+        }
+    }
 }
+
+
 
 

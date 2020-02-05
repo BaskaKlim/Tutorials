@@ -2,19 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8cd2f766-6b20-4306-b2d5-07661bf612b7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/MyLibrary .ser" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/accenture/trainee/tutorials/booklibrary/javalibrary/StudentList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyLibraryCollection .ser" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyLibrary .ser" beforeDir="false" afterPath="$PROJECT_DIR$/MyLibrary .ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/JavaLibrary/com/accenture/trainee/tutorials/booklibrary/javalibrary/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaLibrary/com/accenture/trainee/tutorials/booklibrary/javalibrary/Book.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/JavaLibrary/com/accenture/trainee/tutorials/booklibrary/javalibrary/Library.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaLibrary/com/accenture/trainee/tutorials/booklibrary/javalibrary/Library.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/JavaLibrary/com/accenture/trainee/tutorials/booklibrary/javalibrary/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaLibrary/com/accenture/trainee/tutorials/booklibrary/javalibrary/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/JavaLibrary/com/accenture/trainee/tutorials/booklibrary/javalibrary/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaLibrary/com/accenture/trainee/tutorials/booklibrary/javalibrary/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaLibrary/com/accenture/trainee/tutorials/booklibrary/javalibrary/StudentList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaLibrary/com/accenture/trainee/tutorials/booklibrary/javalibrary/StudentList.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/accenture/trainee/tutorials/booklibrary/javalibrary/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/accenture/trainee/tutorials/booklibrary/javalibrary/Book.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/accenture/trainee/tutorials/booklibrary/javalibrary/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/accenture/trainee/tutorials/booklibrary/javalibrary/Library.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/accenture/trainee/tutorials/booklibrary/javalibrary/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/accenture/trainee/tutorials/booklibrary/javalibrary/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/accenture/trainee/tutorials/booklibrary/javalibrary/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/accenture/trainee/tutorials/booklibrary/javalibrary/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/accenture/trainee/tutorials/booklibrary/javalibrary/StudentList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/accenture/trainee/tutorials/booklibrary/javalibrary/StudentList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,6 +94,10 @@
     </ignored-roots>
   </component>
   <component name="WindowStateProjectService">
+    <state x="233" y="0" key="#Intentions" timestamp="1580818381877">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="0" key="#Intentions/0.0.1280.680@0.0.1280.680" timestamp="1580818381877" />
     <state x="371" y="97" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1580721026569">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -111,34 +114,50 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="97" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1579854345110" />
-    <state width="1237" height="176" key="GridCell.Tab.0.bottom" timestamp="1580736653242">
+    <state width="1237" height="176" key="GridCell.Tab.0.bottom" timestamp="1580825379521">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="176" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1580736653242" />
-    <state width="1237" height="176" key="GridCell.Tab.0.center" timestamp="1580736653242">
+    <state width="1237" height="176" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1580825379521" />
+    <state width="1237" height="176" key="GridCell.Tab.0.center" timestamp="1580825379521">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="176" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1580736653242" />
-    <state width="1237" height="176" key="GridCell.Tab.0.left" timestamp="1580736653242">
+    <state width="1237" height="176" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1580825379521" />
+    <state width="1237" height="176" key="GridCell.Tab.0.left" timestamp="1580825379521">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="176" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1580736653242" />
-    <state width="1237" height="176" key="GridCell.Tab.0.right" timestamp="1580736653242">
+    <state width="1237" height="176" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1580825379521" />
+    <state width="1237" height="176" key="GridCell.Tab.0.right" timestamp="1580825379521">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="176" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1580736653242" />
+    <state width="1237" height="176" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1580825379521" />
+    <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1580824898936">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1580824898936" />
+    <state width="1237" height="204" key="GridCell.Tab.1.center" timestamp="1580824898936">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1580824898936" />
+    <state width="1237" height="204" key="GridCell.Tab.1.left" timestamp="1580824898936">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1580824898936" />
+    <state width="1237" height="204" key="GridCell.Tab.1.right" timestamp="1580824898936">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1580824898936" />
     <state x="142" y="0" key="SettingsEditor" timestamp="1579872196983">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1579872196983" />
-    <state x="297" y="112" key="com.intellij.ide.util.TipDialog" timestamp="1580717991774">
+    <state x="297" y="112" key="com.intellij.ide.util.TipDialog" timestamp="1580756270526">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="297" y="112" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1580717991774" />
-    <state x="371" y="97" key="extract.method.dialog" timestamp="1579861310045">
+    <state x="297" y="112" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1580756270526" />
+    <state x="371" y="97" width="538" height="495" key="extract.method.dialog" timestamp="1580819249454">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="371" y="97" key="extract.method.dialog/0.0.1280.680@0.0.1280.680" timestamp="1579861310045" />
+    <state x="371" y="97" width="538" height="495" key="extract.method.dialog/0.0.1280.680@0.0.1280.680" timestamp="1580819249454" />
     <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1580734260866">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

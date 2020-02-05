@@ -7,7 +7,7 @@ public class Student implements Serializable {
     int regNumber;
     String titleOfBorrowedBook;
     boolean hasBorrowedBook;
-
+    boolean isRegistered;
 
     // constructor
     public Student(String studentName, int regNumber) {
@@ -28,7 +28,7 @@ public class Student implements Serializable {
             return "\nStudent Name: " + studentName
                     +"\nStudent ID: " + regNumber
                     + "\nDoes he borrow any book? : " + hasBorrowedBook
-                    + "\n What book does he has : " + titleOfBorrowedBook   + "\n ";
+                    + "\nWhat book does he has? : " + titleOfBorrowedBook   + "\n ";
         }
     }
 

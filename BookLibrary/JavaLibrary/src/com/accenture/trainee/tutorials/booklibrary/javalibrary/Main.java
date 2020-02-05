@@ -72,13 +72,15 @@ public class Main {
                     break;
                 case 8:
                     // TODO 8: Student can Check Out Book From Library (if registered).
-                    //  Student can not Check Out max than 3 Books.
+                    //  Student can not Check Out max than 1 Book.
                     //  You can only borrow a Book If it is Available in Library
                     borrowBook();
                     break;
                 case 9:
                     //TODO 9: Student can Check In Book to Library.
+                    bookReturn();
                     break;
+
                 case 10:
                     //TODO 10: You can also see the Books which a Student has Checked Out(only while checking in)
                     break;
@@ -89,10 +91,6 @@ public class Main {
             }
         }
         System.exit(0);
-    }
-
-    private static void showAllStudents() {
-        System.out.println(students.toString());
     }
 
     //methods
@@ -133,7 +131,7 @@ public class Main {
     }
 
     private static void showMyCollection() {
-        System.out.println(lib.toString());
+        System.out.println( lib.toString());
 
     }
 
@@ -169,14 +167,41 @@ public class Main {
 
     }
 
+    private static void showAllStudents() {
+        System.out.println(students.toString());
+    }
 
     private static void borrowBook() {
         String borrowingTitle;
-        System.out.println("\nEnter the title of book you are looking for: ");
-        borrowingTitle = scanner.next();
-        lib.borrowBook(borrowingTitle);
+        int studentID;
+
+
+        // zistenie ci je student registrovany
+        System.out.println("\nEnter student ID: ");
+        studentID = scanner.nextInt();
+        if (students.registerCheck(studentID)) {
+
+            System.out.println("\nEnter the title of book you are looking for: ");
+            borrowingTitle = scanner.next();
+            lib.borrowBook(borrowingTitle);
+            students.hasBorrowed(studentID, borrowingTitle);
+        } else {
+            System.out.println("Student is not registered yet. Please first press 2 register.");
+        }
     }
 
+    private static void bookReturn() {
+
+        int studentID;
+        String returnTitle;
+        System.out.println("\nEnter the student ID: ");
+        studentID = scanner.nextInt();
+        System.out.println("\nEnter the  book title: ");
+        returnTitle = scanner.next();
+        if (students.checkReturn(studentID, returnTitle)) {
+            lib.bookReturn(returnTitle);
+        }else System.out.println("Error");
+    }
 
     private static void saveAndQuit() {
         System.out.println("Enter the file name to load: ");
@@ -200,7 +225,6 @@ public class Main {
             e.printStackTrace();
         }
     }
-
 
     private static void loadScript(String name) {
         FileInputStream fis = null;
