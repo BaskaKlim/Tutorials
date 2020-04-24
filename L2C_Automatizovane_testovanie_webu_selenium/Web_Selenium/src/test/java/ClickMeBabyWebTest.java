@@ -17,6 +17,7 @@ public class ClickMeBabyWebTest {
 
   @Before
   public void setUp() {
+    System.setProperty("webdriver.chrome.driver", "src/test/resources/drivers/chromedriver");
     driver = new ChromeDriver();
     js = (JavascriptExecutor) driver;
     vars = new HashMap<String, Object>();
