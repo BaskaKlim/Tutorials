@@ -23,14 +23,15 @@ public class RegistrationTest {
     @Test
     public void validRegistration() {
         //find element email input   and write test email
-        driver.findElement(By.className("form-control")).sendKeys("baska.klimekova@gmail.com");
-        driver.findElement(By.name("name")).sendKeys("barbara");
+        driver.findElement(By.xpath("/html/body/div/div/form/div[1]/input")).sendKeys("baska.klimekova@gmail.com");
+        driver.findElement(By.xpath("/html/body/div/div/form/div[2]/input")).sendKeys("barbara");
         driver.findElement(By.name("surname")).sendKeys("klimek");
         driver.findElement(By.name("password")).sendKeys("1234");
         driver.findElement(By.name("password-repeat")).sendKeys("1234");
         // in cssSelector we use for ID # and for class .
         driver.findElement(By.cssSelector("input#checkbox")).click();
-        driver.findElement(By.cssSelector("button.btn-success")).click();
+        //driver.findElement(By.cssSelector("button.btn-success")).click();
+        driver.findElement(By.xpath("//*[@id='checkbox']")).click();
 
     }
 
