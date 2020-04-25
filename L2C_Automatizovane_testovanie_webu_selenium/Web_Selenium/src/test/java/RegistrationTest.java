@@ -21,6 +21,10 @@ public class RegistrationTest {
 
     @Test
     public void validRegistration() {
+        //find element email input   and write test email
+        driver.findElement(By.name("email")).sendKeys("baska.klimekova@gmail.com");
+
+
     
     }
 
