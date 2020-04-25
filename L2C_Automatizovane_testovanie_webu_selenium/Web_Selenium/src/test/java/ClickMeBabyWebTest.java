@@ -7,14 +7,11 @@ import static org.hamcrest.CoreMatchers.is;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.JavascriptExecutor;
-import java.util.*;
 import java.util.concurrent.*;
 
 public class ClickMeBabyWebTest {
   private WebDriver driver;
-  private  String baseUrl;
-  private boolean acceptNextAlert = true;
+  private  String BASE_URL= "http://localhost";
   private StringBuffer verificationErrors = new StringBuffer();
 
 
@@ -23,10 +20,8 @@ public class ClickMeBabyWebTest {
     //relative path cize od tohto projektu
     System.setProperty("webdriver.chrome.driver", "src/test/resources/drivers/chromedriver");
     driver = new ChromeDriver();
-    baseUrl = "http://localhost/";
+    driver.get(BASE_URL +":8888");
     driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-
-    
   }
   @After
   public void tearDown() throws Exception {
@@ -35,10 +30,10 @@ public class ClickMeBabyWebTest {
     if(!"".equals(verificationErrorString)){
       fail(verificationErrorString);
     }
+
   }
   @Test
   public void oneClick() {
-    driver.get("http://localhost:8888/");
     driver.findElement(By.linkText("Click me baby")).click();
     driver.findElement(By.id("clickMe")).click();
     assertThat(driver.findElement(By.id("clicks")).getText(), is("1"));
