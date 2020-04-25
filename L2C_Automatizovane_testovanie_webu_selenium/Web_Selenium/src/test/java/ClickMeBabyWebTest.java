@@ -7,7 +7,6 @@ import static org.hamcrest.CoreMatchers.is;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.Dimension;
 import org.openqa.selenium.JavascriptExecutor;
 import java.util.*;
 public class ClickMeBabyWebTest {
@@ -17,6 +16,7 @@ public class ClickMeBabyWebTest {
 
   @Before
   public void setUp() {
+    //relative path cize od tohto projektu
     System.setProperty("webdriver.chrome.driver", "src/test/resources/drivers/chromedriver");
     driver = new ChromeDriver();
     js = (JavascriptExecutor) driver;
@@ -28,18 +28,10 @@ public class ClickMeBabyWebTest {
   }
   @Test
   public void oneClick() {
-    driver.get("http://localhost:8888/clickmebaby.php");
+    driver.get("http://localhost:8888/");
+    driver.findElement(By.linkText("Click me baby")).click();
     driver.findElement(By.id("clickMe")).click();
     assertThat(driver.findElement(By.id("clicks")).getText(), is("1"));
     assertThat(driver.findElement(By.cssSelector(".description")).getText(), is("klik"));
-  }
-  @Test
-  public void twoClicks() {
-    driver.get("http://localhost:8888/clickmebaby.php");
-    driver.manage().window().setSize(new Dimension(1440, 822));
-    driver.findElement(By.id("clickMe")).click();
-    driver.findElement(By.id("clickMe")).click();
-    assertThat(driver.findElement(By.id("clicks")).getText(), is("2"));
-    assertThat(driver.findElement(By.cssSelector(".description")).getText(), is("kliky"));
   }
 }

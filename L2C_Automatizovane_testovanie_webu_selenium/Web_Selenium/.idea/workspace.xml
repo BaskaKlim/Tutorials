@@ -15,8 +15,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+            <state relative-caret-position="414">
+              <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -24,8 +24,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ClickMeBabyWebTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="19" column="78" selection-start-line="19" selection-start-column="78" selection-end-line="19" selection-end-column="78" />
+            <state relative-caret-position="263">
+              <caret line="32" column="37" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -36,6 +36,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/ClickMeBabyWebTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ClickMeTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/ClickMeBabyWebTest.java" />
       </list>
@@ -52,9 +53,9 @@
     <option name="runMavenInBackground" value="false" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="233" />
-    <option name="y" value="23" />
-    <option name="width" value="1195" />
+    <option name="x" value="112" />
+    <option name="y" value="50" />
+    <option name="width" value="1328" />
     <option name="height" value="821" />
   </component>
   <component name="ProjectView">
@@ -87,6 +88,21 @@
               <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
+            <path>
+              <item name="automationwebtestingselenium" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="automation-webtesting-selenium" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="automationwebtestingselenium" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="automation-webtesting-selenium" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="drivers" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -104,7 +120,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587765842577" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587819437010" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -119,6 +135,14 @@
     <property name="restartRequiresConfirmation" value="true" />
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources/drivers" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -131,7 +155,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.ClickMeBabyWebTest">
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
@@ -145,12 +169,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClickMeBabyWebTest.oneClick" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="L2C - Automatizovane testovanie webu selenium" />
+    <configuration name="ClickMeBabyWebTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="automation-webtesting-selenium" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ClickMeBabyWebTest" />
-      <option name="METHOD_NAME" value="oneClick" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="moduleWithDependencies" />
@@ -181,11 +204,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JUnit.ClickMeBabyWebTest.oneClick" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -196,34 +214,51 @@
       <updated>1587762357402</updated>
       <workItem from="1587762364921" duration="1054000" />
       <workItem from="1587764897706" duration="110000" />
-      <workItem from="1587765162904" duration="514000" />
+      <workItem from="1587765162904" duration="1227000" />
+      <workItem from="1587813508914" duration="2742000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ClickMeBabyWebTest_oneClick - 2020.04.24 at 23h 15m 27s.xml">
+    <history-entry file="ClickMeBabyWebTest_oneClick - 2020.04.25 at 10h 18m 52s.xml">
       <configuration name="ClickMeBabyWebTest.oneClick" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ClickMeBabyWebTest_oneClick - 2020.04.24 at 23h 49m 39s.xml">
+    <history-entry file="ClickMeBabyWebTest_oneClick - 2020.04.25 at 14h 02m 31s.xml">
       <configuration name="ClickMeBabyWebTest.oneClick" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ClickMeBabyWebTest_oneClick - 2020.04.24 at 23h 55m 35s.xml">
+    <history-entry file="ClickMeBabyWebTest_oneClick - 2020.04.25 at 14h 26m 37s.xml">
       <configuration name="ClickMeBabyWebTest.oneClick" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ClickMeBabyWebTest_oneClick - 2020.04.25 at 00h 03m 05s.xml">
+    <history-entry file="ClickMeBabyWebTest_oneClick - 2020.04.25 at 14h 28m 54s.xml">
       <configuration name="ClickMeBabyWebTest.oneClick" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ClickMeBabyWebTest_oneClick - 2020.04.25 at 00h 04m 08s.xml">
+    <history-entry file="ClickMeBabyWebTest - 2020.04.25 at 14h 34m 59s.xml">
+      <configuration name="ClickMeBabyWebTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClickMeBabyWebTest_oneClick - 2020.04.25 at 14h 46m 39s.xml">
+      <configuration name="ClickMeBabyWebTest.oneClick" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClickMeBabyWebTest - 2020.04.25 at 14h 46m 53s.xml">
+      <configuration name="ClickMeBabyWebTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClickMeBabyWebTest - 2020.04.25 at 14h 52m 58s.xml">
+      <configuration name="ClickMeBabyWebTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClickMeBabyWebTest_oneClick - 2020.04.25 at 14h 54m 33s.xml">
+      <configuration name="ClickMeBabyWebTest.oneClick" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClickMeBabyWebTest_oneClick - 2020.04.25 at 14h 56m 16s.xml">
       <configuration name="ClickMeBabyWebTest.oneClick" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1678000" />
+    <option name="totallyTimeSpent" value="5133000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="301" y="152" width="1195" height="821" extended-state="0" />
+    <frame x="112" y="50" width="1328" height="821" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.2584562" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2021773" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -232,7 +267,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32921812" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32921812" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -242,7 +277,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32921812" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -262,17 +297,24 @@
     <entry file="file://$PROJECT_DIR$/L2C - Automatizovane testovanie webu selenium.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ClickMeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="846">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+        <state relative-caret-position="414">
+          <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ClickMeBabyWebTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="19" column="78" selection-start-line="19" selection-start-column="78" selection-end-line="19" selection-end-column="78" />
+        <state relative-caret-position="263">
+          <caret line="32" column="37" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
         </state>
       </provider>
     </entry>
