@@ -29,8 +29,12 @@ public class ClickMeBabyWebTest {
     
   }
   @After
-  public void tearDown() {
+  public void tearDown() throws Exception {
     driver.quit();
+    String verificationErrorString = verificationErrors.toString();
+    if(!"".equals(verificationErrorString)){
+      fail(verificationErrorString);
+    }
   }
   @Test
   public void oneClick() {
