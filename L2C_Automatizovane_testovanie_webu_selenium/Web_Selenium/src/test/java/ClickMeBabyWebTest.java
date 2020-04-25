@@ -9,6 +9,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.JavascriptExecutor;
 import java.util.*;
+import java.util.concurrent.*;
+
 public class ClickMeBabyWebTest {
   private WebDriver driver;
   private  String baseUrl;
@@ -17,10 +19,13 @@ public class ClickMeBabyWebTest {
 
 
   @Before
-  public void setUp() {
+  public void setUp() throws Exception {
     //relative path cize od tohto projektu
     System.setProperty("webdriver.chrome.driver", "src/test/resources/drivers/chromedriver");
     driver = new ChromeDriver();
+    baseUrl = "http://localhost/";
+    driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+
     
   }
   @After
