@@ -11,16 +11,17 @@ import org.openqa.selenium.JavascriptExecutor;
 import java.util.*;
 public class ClickMeBabyWebTest {
   private WebDriver driver;
-  private Map<String, Object> vars;
-  JavascriptExecutor js;
+  private  String baseUrl;
+  private boolean acceptNextAlert = true;
+  private StringBuffer verificationErrors = new StringBuffer();
+
 
   @Before
   public void setUp() {
     //relative path cize od tohto projektu
     System.setProperty("webdriver.chrome.driver", "src/test/resources/drivers/chromedriver");
     driver = new ChromeDriver();
-    js = (JavascriptExecutor) driver;
-    vars = new HashMap<String, Object>();
+    
   }
   @After
   public void tearDown() {
