@@ -27,7 +27,11 @@ public class RegistrationTest {
         driver.findElement(By.name("surname")).sendKeys("klimek");
         driver.findElement(By.name("password")).sendKeys("1234");
         driver.findElement(By.name("password-repeat")).sendKeys("1234");
+        // in cssSelector we use for ID # and for class .
         driver.findElement(By.cssSelector("input#checkbox")).click();
+        driver.findElement(By.cssSelector("button.btn-success")).click();
+
+
     }
 
 
