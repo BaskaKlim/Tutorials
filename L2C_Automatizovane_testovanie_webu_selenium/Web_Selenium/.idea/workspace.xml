@@ -13,10 +13,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/RegistrationTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TableTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="29" column="57" selection-start-line="29" selection-start-column="57" selection-end-line="29" selection-end-column="57" />
+            <state relative-caret-position="136">
+              <caret line="25" column="73" selection-start-line="25" selection-start-column="73" selection-end-line="25" selection-end-column="73" />
             </state>
           </provider>
         </entry>
@@ -38,6 +38,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/ClickMeBabyWebTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/RegistrationTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TableTest.java" />
       </list>
     </option>
   </component>
@@ -119,7 +120,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587837581228" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587839218889" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -154,7 +155,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RegistrationTest.validRegistration">
+  <component name="RunManager" selected="JUnit.TableTest.xPathTest">
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
@@ -195,6 +196,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TableTest.xPathTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="automation-webtesting-selenium" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TableTest" />
+      <option name="METHOD_NAME" value="xPathTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -219,6 +234,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TableTest.xPathTest" />
         <item itemvalue="JUnit.RegistrationTest.validRegistration" />
       </list>
     </recent_temporary>
@@ -233,20 +249,11 @@
       <workItem from="1587762364921" duration="1054000" />
       <workItem from="1587764897706" duration="110000" />
       <workItem from="1587765162904" duration="1227000" />
-      <workItem from="1587813508914" duration="7989000" />
+      <workItem from="1587813508914" duration="8742000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RegistrationTest_validRegistration - 2020.04.25 at 15h 56m 02s.xml">
-      <configuration name="RegistrationTest.validRegistration" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RegistrationTest_validRegistration - 2020.04.25 at 19h 23m 16s.xml">
-      <configuration name="RegistrationTest.validRegistration" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RegistrationTest_validRegistration - 2020.04.25 at 19h 38m 07s.xml">
-      <configuration name="RegistrationTest.validRegistration" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="RegistrationTest_validRegistration - 2020.04.25 at 19h 45m 06s.xml">
       <configuration name="RegistrationTest.validRegistration" configurationId="JUnit" />
     </history-entry>
@@ -268,9 +275,18 @@
     <history-entry file="RegistrationTest_validRegistration - 2020.04.25 at 19h 59m 55s.xml">
       <configuration name="RegistrationTest.validRegistration" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="RegistrationTest_validRegistration - 2020.04.25 at 20h 22m 14s.xml">
+      <configuration name="RegistrationTest.validRegistration" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TableTest_xPathTest - 2020.04.25 at 20h 22m 28s.xml">
+      <configuration name="TableTest.xPathTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TableTest_xPathTest - 2020.04.25 at 20h 24m 42s.xml">
+      <configuration name="TableTest.xPathTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10380000" />
+    <option name="totallyTimeSpent" value="11133000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="221" y="23" width="1099" height="821" extended-state="0" />
@@ -338,8 +354,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/RegistrationTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="29" column="57" selection-start-line="29" selection-start-column="57" selection-end-line="29" selection-end-column="57" />
+        <state relative-caret-position="254">
+          <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TableTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="25" column="73" selection-start-line="25" selection-start-column="73" selection-end-line="25" selection-end-column="73" />
         </state>
       </provider>
     </entry>

@@ -1,3 +1,4 @@
+import java.sql.*;
 import java.util.concurrent.*;
 import org.junit.*;
 import org.openqa.selenium.*;
@@ -5,7 +6,7 @@ import org.openqa.selenium.chrome.*;
 
 import static org.junit.Assert.*;
 
-public class RegistrationTest {
+public class TableTest {
 
     private WebDriver driver;
     final private String BASE_URL = "http://localhost:8888/";
@@ -16,22 +17,13 @@ public class RegistrationTest {
         //relative path cize od tohto projektu
         System.setProperty("webdriver.chrome.driver", "src/test/resources/drivers/chromedriver");
         driver = new ChromeDriver();
-        driver.get(BASE_URL + "registracia.php");
+        driver.get(BASE_URL + "tabulka.php");
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
     }
 
     @Test
-    public void validRegistration() {
-        //find element email input   and write test email
-        driver.findElement(By.className("form-control")).sendKeys("baska.klimekova@gmail.com");
-        driver.findElement(By.name("name")).sendKeys("barbara");
-        driver.findElement(By.name("surname")).sendKeys("klimek");
-        driver.findElement(By.name("password")).sendKeys("1234");
-        driver.findElement(By.name("password-repeat")).sendKeys("1234");
-        // in cssSelector we use for ID # and for class .
-        driver.findElement(By.cssSelector("input#checkbox")).click();
-        driver.findElement(By.cssSelector("button.btn-success")).click();
-
+    public void xPathTest() {
+        driver.findElement(By.xpath("/html/body/div/div/table/tbody/tr[2]/td[2]"));
     }
 
     @After
