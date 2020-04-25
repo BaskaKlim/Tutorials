@@ -22,7 +22,11 @@ public class RegistrationTest {
     @Test
     public void validRegistration() {
         //find element email input   and write test email
-        driver.findElement(By.name("email")).sendKeys("baska.klimekova@gmail.com");
+        driver.findElement(By.className("form-control")).sendKeys("baska.klimekova@gmail.com");
+        driver.findElement(By.name("name")).sendKeys("barbara");
+        driver.findElement(By.name("surname")).sendKeys("klimek");
+        driver.findElement(By.name("password")).sendKeys("1234");
+        driver.findElement(By.name("password-repeat")).sendKeys("1234");
 
 
     
