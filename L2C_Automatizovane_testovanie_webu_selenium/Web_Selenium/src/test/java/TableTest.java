@@ -23,7 +23,10 @@ public class TableTest {
 
     @Test
     public void xPathTest() {
+        //absolute path
         driver.findElement(By.xpath("/html/body/div/div/table/tbody/tr[2]/td[2]"));
+         //relative path
+        driver.findElement(By.xpath("//table/tbody/tr[2]/td[2]"));
     }
 
     @After
