@@ -39,9 +39,13 @@ public class ClickMeBabyWebTest {
 
     @Test
     public void oneClick() {
+        //otvor stranku Clickmebaby    - najdi na liste a klikni
         driver.findElement(By.linkText("Click me baby")).click();
+        //najdi button click me baby a klikni
         driver.findElement(By.id("clickMe")).click();
+        //over, kolko klikov zahlasi - pocet
         driver.findElement(By.id("clicks")).getText().contentEquals("1");
+        // over text pod cislom
         driver.findElement(By.cssSelector(".description")).getText().contentEquals("klik");
     }
 }
