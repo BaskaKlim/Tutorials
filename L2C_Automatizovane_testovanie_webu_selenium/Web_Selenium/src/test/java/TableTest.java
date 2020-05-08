@@ -26,23 +26,28 @@ public class TableTest {
     public void xPathTest() {
         //absolute path
         driver.findElement(By.xpath("/html/body/div/div/table/tbody/tr[2]/td[2]"));
-         //relative path
+        //relative path
         driver.findElement(By.xpath("//table/tbody/tr[2]/td[2]"));
     }
 
     @Test
-    public void itShouldGoThrowAllRows(){
+    public void itShouldGoThrowAllRows() {
         List<WebElement> rows = driver.findElements(By.xpath("//table/tbody/tr"));
-     for (WebElement row : rows){
-         //TODO: vypis riadky
-         //vypisal text kazdeho riadku
-         System.out.println(row.getText());
-         //TODO: vypis iba priezviska
-         //v najdenom elemente mozme hladat cez xpath dalej, :./td[] ta bodka znamena ze chceme hladat len pod tymto roe elementom dalsie td
-         System.out.println(row.findElement(By.xpath("./td[3]")).getText());
-     }
+        for (WebElement row : rows) {
+            //TODO: vypis riadky
+            //vypisal text kazdeho riadku
+            System.out.println(row.getText());
+            //TODO: vypis iba priezviska
+            //v najdenom elemente mozme hladat cez xpath dalej, :./td[] ta bodka znamena ze chceme hladat len pod tymto roe elementom dalsie td
+            System.out.println(row.findElement(By.xpath("./td[3]")).getText());
+        }
     }
 
+    @Test
+    public void itShouldPrintLastRow() {
+        WebElement row = driver.findElement(By.xpath("//table/tbody/tr(last()/td[1])"));
+        System.out.println(row.getText());
+    }
 
     @After
     public void tearDown() throws Exception {
