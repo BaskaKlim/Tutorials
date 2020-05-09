@@ -54,8 +54,8 @@ public class TableTest {
 
     public void itShouldPrintAllRows2(){
         int rows = Integer.parseInt(driver.findElement(By.xpath("//table/tbody/tr(last()/td[1])")).getText()) ;
-
-    for (int i=0; i<rows; i++){
+      // od 1. riadku po pocet riadkov rows
+    for (int i=1; i<rows; i++){
         System.out.println(driver.findElement(By.xpath("//table/tbody/tr["+i+"]")));
         }
     }
