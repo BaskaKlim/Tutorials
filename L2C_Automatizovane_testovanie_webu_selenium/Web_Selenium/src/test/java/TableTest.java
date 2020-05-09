@@ -58,6 +58,8 @@ public class TableTest {
     for (int i=1; i<rows; i++){
         System.out.println(driver.findElement(By.xpath("//table/tbody/tr["+i+"]")));
         }
+
+    Assert.assertFalse(driver.findElement(By.xpath("//table/tbody/tr[3]")).getText().isEmpty());
     }
     
 
