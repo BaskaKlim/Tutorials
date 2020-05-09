@@ -44,10 +44,22 @@ public class TableTest {
     }
 
     @Test
+    //TODO: pocet riadkov tabulky
     public void itShouldPrintLastRow() {
         WebElement row = driver.findElement(By.xpath("//table/tbody/tr(last()/td[1])"));
         System.out.println(row.getText());
     }
+
+    @Test
+
+    public void itShouldPrintAllRows2(){
+        int rows = Integer.parseInt(driver.findElement(By.xpath("//table/tbody/tr(last()/td[1])")).getText()) ;
+
+    for (int i=0; i<rows; i++){
+        System.out.println(driver.findElement(By.xpath("//table/tbody/tr["+i+"]")));
+        }
+    }
+    
 
     @After
     public void tearDown() throws Exception {
