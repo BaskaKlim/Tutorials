@@ -46,17 +46,17 @@ public class TableTest {
     @Test
     //TODO: pocet riadkov tabulky
     public void itShouldPrintLastRow() {
-        WebElement row = driver.findElement(By.xpath("//table/tbody/tr[(last())]/td[1]"));
+        WebElement row = driver.findElement(By.xpath("//table/tbody/tr[(last())]"));
         System.out.println(row.getText());
     }
 
     @Test
 
     public void itShouldPrintAllRows2(){
-        int rows = Integer.parseInt(driver.findElement(By.xpath("//table/tbody/tr(last()/td[1])")).getText()) ;
+        int rows = Integer.parseInt(driver.findElement(By.xpath("//table/tbody/tr[(last())]/td[1]")).getText()) ;
       // od 1. riadku po pocet riadkov rows
     for (int i=1; i<rows; i++){
-        System.out.println(driver.findElement(By.xpath("//table/tbody/tr["+i+"]")));
+        System.out.println(driver.findElement(By.xpath("//table/tbody/tr["+i+"]")).getText());
         }
 
     Assert.assertFalse(driver.findElement(By.xpath("//table/tbody/tr[3]")).getText().isEmpty());
