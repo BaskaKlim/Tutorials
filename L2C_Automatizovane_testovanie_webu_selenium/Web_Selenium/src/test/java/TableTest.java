@@ -46,7 +46,7 @@ public class TableTest {
     @Test
     //TODO: pocet riadkov tabulky
     public void itShouldPrintLastRow() {
-        WebElement row = driver.findElement(By.xpath("//table/tbody/tr(last()/td[1])"));
+        WebElement row = driver.findElement(By.xpath("//table/tbody/tr[(last())]/td[1]"));
         System.out.println(row.getText());
     }
 
