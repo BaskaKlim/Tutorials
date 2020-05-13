@@ -30,4 +30,8 @@ public class SelectPokemonTest {
     public void itShouldSelectCharmander(){
         new Select(driver.findElement(By.className("form-control"))).selectByValue("01");
     }
+    @Test
+    public void itShouldSelectBulbasaur(){
+        new Select(driver.findElement(By.className("form-control"))).selectByVisibleText("Bulbasaur");
+    }
 }
