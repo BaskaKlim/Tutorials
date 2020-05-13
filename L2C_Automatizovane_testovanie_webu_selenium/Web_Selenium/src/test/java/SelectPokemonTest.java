@@ -2,6 +2,7 @@ import java.util.concurrent.*;
 import org.junit.*;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.*;
+import org.openqa.selenium.support.ui.*;
 
 public class SelectPokemonTest {
 
@@ -18,4 +19,11 @@ public class SelectPokemonTest {
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
     }
 
+    @Test
+    //TODO: vyber z comboboxu
+    public void itShouldSelectPokemonPikachu() {
+        //3 sposoby ako vybrat konkretnu option  selectByIndex, selectByValue, selectByVisibleText
+        new Select(driver.findElement(By.className("form-control"))).selectByIndex(4);
+
+    }
 }
