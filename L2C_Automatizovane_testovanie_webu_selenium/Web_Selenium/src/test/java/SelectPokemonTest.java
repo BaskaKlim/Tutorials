@@ -24,6 +24,10 @@ public class SelectPokemonTest {
     public void itShouldSelectPokemonPikachu() {
         //3 sposoby ako vybrat konkretnu option  selectByIndex, selectByValue, selectByVisibleText
         new Select(driver.findElement(By.className("form-control"))).selectByIndex(4);
+    }
+    @Test
 
+    public void itShouldSelectCharmander(){
+        new Select(driver.findElement(By.className("form-control"))).selectByValue("01");
     }
 }
