@@ -24,8 +24,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/AlertTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="56" column="8" selection-start-line="56" selection-start-column="8" selection-end-line="56" selection-end-column="8" />
+            <state relative-caret-position="323">
+              <caret line="53" column="36" selection-start-line="53" selection-start-column="36" selection-end-line="53" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -92,9 +92,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
       <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -106,7 +106,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1589479401620" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1589489863220" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -140,7 +140,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AlertTest.itShouldRunAndDismissAlert2">
+  <component name="RunManager" selected="JUnit.AlertTest.itShouldRunAlert3">
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
@@ -159,6 +159,20 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="AlertTest" />
       <option name="METHOD_NAME" value="itShouldRunAlert1" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AlertTest.itShouldRunAlert3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="automation-webtesting-selenium" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AlertTest" />
+      <option name="METHOD_NAME" value="itShouldRunAlert3" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="TEST_SEARCH_SCOPE">
@@ -209,20 +223,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelectPokemonTest.itShouldSelectCharmander" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="automation-webtesting-selenium" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SelectPokemonTest" />
-      <option name="METHOD_NAME" value="itShouldSelectCharmander" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TableTest.itShouldGoThrowAllRows" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="automation-webtesting-selenium" />
       <option name="PACKAGE_NAME" value="" />
@@ -261,11 +261,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AlertTest.itShouldRunAlert3" />
         <item itemvalue="JUnit.AlertTest.itShouldRunAndDismissAlert2" />
         <item itemvalue="JUnit.AlertTest.itShouldRunAlert1" />
         <item itemvalue="JUnit.TableTest.itShouldGoThrowAllRows" />
         <item itemvalue="JUnit.SelectPokemonTest.itShouldSelectBulbasaur" />
-        <item itemvalue="JUnit.SelectPokemonTest.itShouldSelectCharmander" />
       </list>
     </recent_temporary>
   </component>
@@ -281,20 +281,12 @@
       <workItem from="1587765162904" duration="1227000" />
       <workItem from="1587813508914" duration="10714000" />
       <workItem from="1588881007513" duration="9720000" />
-      <workItem from="1589478803719" duration="510000" />
+      <workItem from="1589478803719" duration="802000" />
+      <workItem from="1589480182894" duration="233000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SelectPokemonTest_itShouldSelectCharmander - 2020.05.14 at 19h 13m 06s.xml">
-      <configuration name="SelectPokemonTest.itShouldSelectCharmander" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SelectPokemonTest_itShouldSelectBulbasaur - 2020.05.14 at 19h 25m 29s.xml">
-      <configuration name="SelectPokemonTest.itShouldSelectBulbasaur" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SelectPokemonTest_itShouldSelectBulbasaur - 2020.05.14 at 19h 28m 43s.xml">
-      <configuration name="SelectPokemonTest.itShouldSelectBulbasaur" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SelectPokemonTest_itShouldSelectBulbasaur - 2020.05.14 at 19h 34m 39s.xml">
       <configuration name="SelectPokemonTest.itShouldSelectBulbasaur" configurationId="JUnit" />
     </history-entry>
@@ -316,15 +308,24 @@
     <history-entry file="AlertTest_itShouldRunAlert1 - 2020.05.14 at 19h 58m 14s.xml">
       <configuration name="AlertTest.itShouldRunAlert1" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="AlertTest_itShouldRunAndDismissAlert2 - 2020.05.14 at 20h 02m 46s.xml">
+      <configuration name="AlertTest.itShouldRunAndDismissAlert2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AlertTest_itShouldRunAndDismissAlert2 - 2020.05.14 at 20h 03m 18s.xml">
+      <configuration name="AlertTest.itShouldRunAndDismissAlert2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AlertTest_itShouldRunAndDismissAlert2 - 2020.05.14 at 20h 03m 33s.xml">
+      <configuration name="AlertTest.itShouldRunAndDismissAlert2" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23335000" />
+    <option name="totallyTimeSpent" value="23860000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="821" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="822" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19170243" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19456366" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -333,7 +334,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32921812" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32921812" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39917696" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -449,8 +450,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/AlertTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="56" column="8" selection-start-line="56" selection-start-column="8" selection-end-line="56" selection-end-column="8" />
+        <state relative-caret-position="323">
+          <caret line="53" column="36" selection-start-line="53" selection-start-column="36" selection-end-line="53" selection-end-column="36" />
         </state>
       </provider>
     </entry>
