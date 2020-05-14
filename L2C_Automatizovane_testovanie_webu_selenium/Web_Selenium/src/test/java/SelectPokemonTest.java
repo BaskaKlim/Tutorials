@@ -1,3 +1,4 @@
+import java.util.*;
 import java.util.concurrent.*;
 import org.junit.*;
 import org.openqa.selenium.*;
@@ -20,18 +21,24 @@ public class SelectPokemonTest {
     }
 
     @Test
-    //TODO: vyber z comboboxu
+    //TODO: vyber z comboboxu - dropdownu
     public void itShouldSelectPokemonPikachu() {
         //3 sposoby ako vybrat konkretnu option  selectByIndex, selectByValue, selectByVisibleText
         new Select(driver.findElement(By.className("form-control"))).selectByIndex(4);
     }
-    @Test
 
-    public void itShouldSelectCharmander(){
-        new Select(driver.findElement(By.className("form-control"))).selectByValue("01");
-    }
     @Test
-    public void itShouldSelectBulbasaur(){
+     //TODO: nechat vypisat vsetky moznosti z dropdownu
+    public void itShouldSelectCharmander() {
+    List<WebElement> options = new Select(driver.findElement(By.className("form-control"))).getOptions();
+    for (int i=0; i<options.size();i++){
+        System.out.println(options.get(i).getText());
+    }
+
+    }
+
+    @Test
+    public void itShouldSelectBulbasaur() {
         new Select(driver.findElement(By.className("form-control"))).selectByVisibleText("Bulbasaur");
     }
 }

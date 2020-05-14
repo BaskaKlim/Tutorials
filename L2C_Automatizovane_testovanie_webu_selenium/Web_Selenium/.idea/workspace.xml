@@ -15,8 +15,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/SelectPokemonTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+            <state relative-caret-position="248">
+              <caret line="34" column="45" lean-forward="true" selection-start-line="34" selection-start-column="45" selection-end-line="34" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -25,7 +25,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/TableTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="169">
-              <caret line="34" column="24" lean-forward="true" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="24" />
+              <caret line="34" column="84" lean-forward="true" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="82" />
             </state>
           </provider>
         </entry>
@@ -130,7 +130,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1589406211251" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1589476383821" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -165,7 +165,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SelectPokemonTest.itShouldSelectPokemonPikachu">
+  <component name="RunManager" selected="JUnit.SelectPokemonTest.itShouldSelectCharmander">
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
@@ -184,6 +184,20 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ClickMeBabyWebTest" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SelectPokemonTest.itShouldSelectCharmander" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="automation-webtesting-selenium" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SelectPokemonTest" />
+      <option name="METHOD_NAME" value="itShouldSelectCharmander" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="moduleWithDependencies" />
@@ -211,20 +225,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="SelectPokemonTest" />
       <option name="METHOD_NAME" value="itShouldSelectPokemonPikachu" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TableTest.itShouldGoThrowAllRows" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="automation-webtesting-selenium" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TableTest" />
-      <option name="METHOD_NAME" value="itShouldGoThrowAllRows" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="TEST_SEARCH_SCOPE">
@@ -286,11 +286,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SelectPokemonTest.itShouldSelectCharmander" />
         <item itemvalue="JUnit.SelectPokemonTest.itShouldSelectPokemonPikachu" />
         <item itemvalue="JUnit.SelectPokemonTest.itShouldSelectPokemon" />
         <item itemvalue="JUnit.TableTest.itShouldPrintAllRows2" />
         <item itemvalue="JUnit.TableTest.itShouldPrintLastRow" />
-        <item itemvalue="JUnit.TableTest.itShouldGoThrowAllRows" />
       </list>
     </recent_temporary>
   </component>
@@ -305,26 +305,11 @@
       <workItem from="1587764897706" duration="110000" />
       <workItem from="1587765162904" duration="1227000" />
       <workItem from="1587813508914" duration="10714000" />
-      <workItem from="1588881007513" duration="5512000" />
+      <workItem from="1588881007513" duration="7355000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TableTest_xPathTest - 2020.05.11 at 22h 00m 21s.xml">
-      <configuration name="TableTest.xPathTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TableTest_itShouldGoThrowAllRows - 2020.05.11 at 22h 00m 32s.xml">
-      <configuration name="TableTest.itShouldGoThrowAllRows" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TableTest_itShouldPrintLastRow - 2020.05.11 at 22h 00m 44s.xml">
-      <configuration name="TableTest.itShouldPrintLastRow" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TableTest_itShouldPrintLastRow - 2020.05.11 at 22h 02m 31s.xml">
-      <configuration name="TableTest.itShouldPrintLastRow" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TableTest_itShouldPrintLastRow - 2020.05.11 at 22h 04m 41s.xml">
-      <configuration name="TableTest.itShouldPrintLastRow" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TableTest_itShouldPrintAllRows2 - 2020.05.11 at 22h 05m 33s.xml">
       <configuration name="TableTest.itShouldPrintAllRows2" configurationId="JUnit" />
     </history-entry>
@@ -340,15 +325,30 @@
     <history-entry file="SelectPokemonTest_itShouldSelectPokemonPikachu - 2020.05.13 at 23h 33m 15s.xml">
       <configuration name="SelectPokemonTest.itShouldSelectPokemonPikachu" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="SelectPokemonTest_itShouldSelectCharmander - 2020.05.13 at 23h 49m 58s.xml">
+      <configuration name="SelectPokemonTest.itShouldSelectCharmander" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SelectPokemonTest_itShouldSelectCharmander - 2020.05.13 at 23h 51m 18s.xml">
+      <configuration name="SelectPokemonTest.itShouldSelectCharmander" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SelectPokemonTest_itShouldSelectCharmander - 2020.05.13 at 23h 52m 02s.xml">
+      <configuration name="SelectPokemonTest.itShouldSelectCharmander" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SelectPokemonTest_itShouldSelectCharmander - 2020.05.13 at 23h 52m 29s.xml">
+      <configuration name="SelectPokemonTest.itShouldSelectCharmander" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SelectPokemonTest_itShouldSelectCharmander - 2020.05.14 at 19h 05m 07s.xml">
+      <configuration name="SelectPokemonTest.itShouldSelectCharmander" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18617000" />
+    <option name="totallyTimeSpent" value="20460000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="821" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18955651" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18955651" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -357,7 +357,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32921812" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32921812" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -419,14 +419,14 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/TableTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="169">
-          <caret line="34" column="24" lean-forward="true" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="24" />
+          <caret line="34" column="84" lean-forward="true" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="82" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/SelectPokemonTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+        <state relative-caret-position="248">
+          <caret line="34" column="45" lean-forward="true" selection-start-line="34" selection-start-column="45" selection-end-line="34" selection-end-column="45" />
         </state>
       </provider>
     </entry>
