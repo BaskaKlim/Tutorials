@@ -32,6 +32,7 @@ public class AlertTest {
     }
 
     @Test
+    // TODO: overit, ci sa zobrazi hlaska po kliknuti na button a akceptovani alertu
     public void itShouldRunAlert1() {
         //click on the button
         driver.findElement(By.id("alert1")).click();
@@ -43,4 +44,18 @@ public class AlertTest {
         Assert.assertEquals(text, "Kirov Reporting");
     }
 
+    @Test
+    // TODO: overit, ci sa zobrazi hlaska po kliknuti na button a zruseni alertu
+    public void itShouldRunAndDismissAlert2() {
+        //click on the button
+        driver.findElement(By.id("alert2")).click();
+        // switch to alert window
+        Alert alert = driver.switchTo().alert();
+        //dismiss alert
+        alert.dismiss();
+        //assert text message is "Negative"
+        String text = driver.findElement(By.xpath("//div[@class='result']/h1")).getText();
+        Assert.assertEquals(text, "Negative");
+        
+    }
 }
