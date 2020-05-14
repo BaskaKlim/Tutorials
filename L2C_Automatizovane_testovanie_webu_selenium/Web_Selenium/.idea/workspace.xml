@@ -24,8 +24,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/RadioButtonTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="337">
-              <caret line="33" column="15" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="33" />
+            <state relative-caret-position="402">
+              <caret line="39" column="80" lean-forward="true" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="72" />
             </state>
           </provider>
         </entry>
@@ -33,8 +33,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/NemenneTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
-              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="354">
+              <caret line="39" column="91" selection-start-line="39" selection-start-column="91" selection-end-line="39" selection-end-column="91" />
             </state>
           </provider>
         </entry>
@@ -133,7 +133,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1589491441923" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1589492056424" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -167,7 +167,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RadioButtonTest.itShouldValidateCorrectChoosingOfRadioButtons">
+  <component name="RunManager" selected="JUnit.NemenneTest.itShouldValidateThatElemensOfFormAreOrAreNotEnabled">
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
@@ -181,53 +181,53 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AlertTest.itShouldRunAlert1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="automation-webtesting-selenium" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AlertTest" />
-      <option name="METHOD_NAME" value="itShouldRunAlert1" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AlertTest.itShouldRunAlert3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="automation-webtesting-selenium" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AlertTest" />
-      <option name="METHOD_NAME" value="itShouldRunAlert3" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AlertTest.itShouldRunAndDismissAlert2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="automation-webtesting-selenium" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AlertTest" />
-      <option name="METHOD_NAME" value="itShouldRunAndDismissAlert2" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ClickMeBabyWebTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="automation-webtesting-selenium" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ClickMeBabyWebTest" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NemenneTest.itShouldValidateThatElemensOfFormAreNotEnabled" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="automation-webtesting-selenium" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="NemenneTest" />
+      <option name="METHOD_NAME" value="itShouldValidateThatElemensOfFormAreNotEnabled" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NemenneTest.itShouldValidateThatElemensOfFormAreOrAreNotEnabled" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="automation-webtesting-selenium" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="NemenneTest" />
+      <option name="METHOD_NAME" value="itShouldValidateThatElemensOfFormAreOrAreNotEnabled" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NemenneTest.itShouldValidateThatElementIsEnabled" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="automation-webtesting-selenium" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="NemenneTest" />
+      <option name="METHOD_NAME" value="itShouldValidateThatElementIsEnabled" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="moduleWithDependencies" />
@@ -288,11 +288,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.NemenneTest.itShouldValidateThatElemensOfFormAreOrAreNotEnabled" />
+        <item itemvalue="JUnit.NemenneTest.itShouldValidateThatElemensOfFormAreNotEnabled" />
+        <item itemvalue="JUnit.NemenneTest.itShouldValidateThatElementIsEnabled" />
         <item itemvalue="JUnit.RadioButtonTest.itShouldValidateCorrectChoosingOfRadioButtons" />
         <item itemvalue="JUnit.RadioButtonTest.itShouldChoseOptionMuz" />
-        <item itemvalue="JUnit.AlertTest.itShouldRunAlert3" />
-        <item itemvalue="JUnit.AlertTest.itShouldRunAndDismissAlert2" />
-        <item itemvalue="JUnit.AlertTest.itShouldRunAlert1" />
       </list>
     </recent_temporary>
   </component>
@@ -309,17 +309,11 @@
       <workItem from="1587813508914" duration="10714000" />
       <workItem from="1588881007513" duration="9720000" />
       <workItem from="1589478803719" duration="802000" />
-      <workItem from="1589480182894" duration="1965000" />
+      <workItem from="1589480182894" duration="2470000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AlertTest_itShouldRunAlert1 - 2020.05.14 at 19h 58m 14s.xml">
-      <configuration name="AlertTest.itShouldRunAlert1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AlertTest_itShouldRunAndDismissAlert2 - 2020.05.14 at 20h 02m 46s.xml">
-      <configuration name="AlertTest.itShouldRunAndDismissAlert2" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AlertTest_itShouldRunAndDismissAlert2 - 2020.05.14 at 20h 03m 18s.xml">
       <configuration name="AlertTest.itShouldRunAndDismissAlert2" configurationId="JUnit" />
     </history-entry>
@@ -344,9 +338,15 @@
     <history-entry file="RadioButtonTest_itShouldValidateCorrectChoosingOfRadioButtons - 2020.05.14 at 23h 19m 54s.xml">
       <configuration name="RadioButtonTest.itShouldValidateCorrectChoosingOfRadioButtons" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="NemenneTest_itShouldValidateThatElementIsEnabled - 2020.05.14 at 23h 28m 24s.xml">
+      <configuration name="NemenneTest.itShouldValidateThatElementIsEnabled" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NemenneTest_itShouldValidateThatElemensOfFormAreNotEnabled - 2020.05.14 at 23h 29m 40s.xml">
+      <configuration name="NemenneTest.itShouldValidateThatElemensOfFormAreNotEnabled" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25592000" />
+    <option name="totallyTimeSpent" value="26097000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="822" extended-state="6" />
@@ -382,6 +382,37 @@
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19456366" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32876712" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39917696" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32921812" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -484,15 +515,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/RadioButtonTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="33" column="15" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="33" />
+        <state relative-caret-position="402">
+          <caret line="39" column="80" lean-forward="true" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="72" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/NemenneTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="354">
+          <caret line="39" column="91" selection-start-line="39" selection-start-column="91" selection-end-line="39" selection-end-column="91" />
         </state>
       </provider>
     </entry>
