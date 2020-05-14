@@ -16,7 +16,7 @@ public class AlertTest {
         //relative path cize od tohto projektu
         System.setProperty("webdriver.chrome.driver", "src/test/resources/drivers/chromedriver");
         driver = new ChromeDriver();
-        driver.get(BASE_URL + "8888/redalert.php");
+        driver.get(BASE_URL + ":8888/redalert.php");
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 
     }
@@ -31,6 +31,6 @@ public class AlertTest {
 
     }
 
-   
+    
 
 }
