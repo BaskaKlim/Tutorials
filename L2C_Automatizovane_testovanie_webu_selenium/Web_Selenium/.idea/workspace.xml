@@ -12,20 +12,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/SelectPokemonTest.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TableTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="371">
-              <caret line="42" column="61" selection-start-line="42" selection-start-column="61" selection-end-line="42" selection-end-column="61" />
+            <state relative-caret-position="543">
+              <caret line="36" column="32" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/AlertTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="39" column="8" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/TableTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ClickMeBabyWebTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="34" column="84" lean-forward="true" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="82" />
+            <state relative-caret-position="122">
+              <caret line="35" column="14" lean-forward="true" selection-start-line="27" selection-start-column="2" selection-end-line="35" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$JAVATRAINING$/JDK/Contents/Home/src.zip!/sun/reflect/NativeMethodAccessorImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="61" selection-start-line="61" selection-end-line="61" />
             </state>
           </provider>
         </entry>
@@ -48,8 +66,9 @@
         <option value="$PROJECT_DIR$/src/test/java/ClickMeBabyWebTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/RegistrationTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/XPathTests.java" />
-        <option value="$PROJECT_DIR$/src/test/java/TableTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/SelectPokemonTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TableTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/AlertTest.java" />
       </list>
     </option>
   </component>
@@ -64,8 +83,8 @@
     <option name="runMavenInBackground" value="false" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="98" />
-    <option name="y" value="71" />
+    <option name="x" value="19" />
+    <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="821" />
   </component>
@@ -131,7 +150,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1589477722705" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1589478704456" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -143,7 +162,6 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
-    <property name="restartRequiresConfirmation" value="true" />
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
@@ -166,7 +184,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SelectPokemonTest.itShouldSelectBulbasaur">
+  <component name="RunManager" selected="JUnit.AlertTest.itShouldRunAlert1">
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
@@ -176,6 +194,20 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AlertTest.itShouldRunAlert1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="automation-webtesting-selenium" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AlertTest" />
+      <option name="METHOD_NAME" value="itShouldRunAlert1" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -221,20 +253,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelectPokemonTest.itShouldSelectPokemon" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="automation-webtesting-selenium" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SelectPokemonTest" />
-      <option name="METHOD_NAME" value="itShouldSelectPokemon" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SelectPokemonTest.itShouldSelectPokemonPikachu" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="automation-webtesting-selenium" />
       <option name="PACKAGE_NAME" value="" />
@@ -249,11 +267,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TableTest.itShouldPrintAllRows2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TableTest.itShouldGoThrowAllRows" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="automation-webtesting-selenium" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TableTest" />
-      <option name="METHOD_NAME" value="itShouldPrintAllRows2" />
+      <option name="METHOD_NAME" value="itShouldGoThrowAllRows" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="TEST_SEARCH_SCOPE">
@@ -287,11 +305,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AlertTest.itShouldRunAlert1" />
+        <item itemvalue="JUnit.TableTest.itShouldGoThrowAllRows" />
         <item itemvalue="JUnit.SelectPokemonTest.itShouldSelectBulbasaur" />
         <item itemvalue="JUnit.SelectPokemonTest.itShouldSelectCharmander" />
         <item itemvalue="JUnit.SelectPokemonTest.itShouldSelectPokemonPikachu" />
-        <item itemvalue="JUnit.SelectPokemonTest.itShouldSelectPokemon" />
-        <item itemvalue="JUnit.TableTest.itShouldPrintAllRows2" />
       </list>
     </recent_temporary>
   </component>
@@ -306,20 +324,11 @@
       <workItem from="1587764897706" duration="110000" />
       <workItem from="1587765162904" duration="1227000" />
       <workItem from="1587813508914" duration="10714000" />
-      <workItem from="1588881007513" duration="8631000" />
+      <workItem from="1588881007513" duration="9556000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SelectPokemonTest_itShouldSelectPokemonPikachu - 2020.05.13 at 23h 33m 15s.xml">
-      <configuration name="SelectPokemonTest.itShouldSelectPokemonPikachu" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SelectPokemonTest_itShouldSelectCharmander - 2020.05.13 at 23h 49m 58s.xml">
-      <configuration name="SelectPokemonTest.itShouldSelectCharmander" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SelectPokemonTest_itShouldSelectCharmander - 2020.05.13 at 23h 51m 18s.xml">
-      <configuration name="SelectPokemonTest.itShouldSelectCharmander" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SelectPokemonTest_itShouldSelectCharmander - 2020.05.13 at 23h 52m 02s.xml">
       <configuration name="SelectPokemonTest.itShouldSelectCharmander" configurationId="JUnit" />
     </history-entry>
@@ -341,12 +350,21 @@
     <history-entry file="SelectPokemonTest_itShouldSelectBulbasaur - 2020.05.14 at 19h 28m 43s.xml">
       <configuration name="SelectPokemonTest.itShouldSelectBulbasaur" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="SelectPokemonTest_itShouldSelectBulbasaur - 2020.05.14 at 19h 34m 39s.xml">
+      <configuration name="SelectPokemonTest.itShouldSelectBulbasaur" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SelectPokemonTest_itShouldSelectBulbasaur - 2020.05.14 at 19h 35m 26s.xml">
+      <configuration name="SelectPokemonTest.itShouldSelectBulbasaur" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TableTest_itShouldGoThrowAllRows - 2020.05.14 at 19h 42m 40s.xml">
+      <configuration name="TableTest.itShouldGoThrowAllRows" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21736000" />
+    <option name="totallyTimeSpent" value="22661000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="258" y="283" width="1440" height="821" extended-state="0" />
+    <frame x="19" y="23" width="1440" height="821" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18955651" />
@@ -358,8 +376,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32921812" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32921812" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39917696" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -383,6 +401,32 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/TableTest.java</url>
+          <line>39</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>rows</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>row</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/ClickMeBabyWebTest.java" />
     <entry file="file://$PROJECT_DIR$/L2C - Automatizovane testovanie webu selenium.iml">
@@ -403,13 +447,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ClickMeBabyWebTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="38" column="29" lean-forward="true" selection-start-line="38" selection-start-column="3" selection-end-line="38" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/RegistrationTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -417,17 +454,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TableTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/SelectPokemonTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="34" column="84" lean-forward="true" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="82" />
+        <state relative-caret-position="279">
+          <caret line="42" column="33" selection-start-line="42" selection-start-column="33" selection-end-line="42" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/SelectPokemonTest.java">
+    <entry file="jar://$JAVATRAINING$/JDK/Contents/Home/src.zip!/sun/reflect/NativeMethodAccessorImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="42" column="61" selection-start-line="42" selection-start-column="61" selection-end-line="42" selection-end-column="61" />
+        <state relative-caret-position="140">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ClickMeBabyWebTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="35" column="14" lean-forward="true" selection-start-line="27" selection-start-column="2" selection-end-line="35" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TableTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="543">
+          <caret line="36" column="32" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/AlertTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="39" column="8" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
         </state>
       </provider>
     </entry>

@@ -32,6 +32,7 @@ public class TableTest {
 
     @Test
     public void itShouldGoThrowAllRows() {
+        // pouzivam find elements nie element
         List<WebElement> rows = driver.findElements(By.xpath("//table/tbody/tr"));
         for (WebElement row : rows) {
             //TODO: vypis riadky
