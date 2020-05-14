@@ -31,6 +31,16 @@ public class AlertTest {
 
     }
 
-    
+    @Test
+    public void itShouldRunAlert1() {
+        //click on the button
+        driver.findElement(By.id("alert1")).click();
+        // switch to alert window and click on check button ok
+        Alert alert = driver.switchTo().alert();
+        alert.accept();
+        // assert allert message - text
+        String text = driver.findElement(By.xpath("//div[@class='result']/h1")).getText();
+        Assert.assertEquals(text, "Kirov Reporting");
+    }
 
 }
