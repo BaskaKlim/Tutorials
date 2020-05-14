@@ -15,8 +15,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/SelectPokemonTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="407">
-              <caret line="46" column="50" selection-start-line="46" selection-start-column="50" selection-end-line="46" selection-end-column="50" />
+            <state relative-caret-position="371">
+              <caret line="42" column="61" selection-start-line="42" selection-start-column="61" selection-end-line="42" selection-end-column="61" />
             </state>
           </provider>
         </entry>
@@ -64,7 +64,8 @@
     <option name="runMavenInBackground" value="false" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+    <option name="x" value="98" />
+    <option name="y" value="71" />
     <option name="width" value="1440" />
     <option name="height" value="821" />
   </component>
@@ -130,7 +131,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1589477320397" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1589477722705" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -305,14 +306,11 @@
       <workItem from="1587764897706" duration="110000" />
       <workItem from="1587765162904" duration="1227000" />
       <workItem from="1587813508914" duration="10714000" />
-      <workItem from="1588881007513" duration="8288000" />
+      <workItem from="1588881007513" duration="8631000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SelectPokemonTest_itShouldSelectPokemon - 2020.05.13 at 23h 30m 36s.xml">
-      <configuration name="SelectPokemonTest.itShouldSelectPokemon" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SelectPokemonTest_itShouldSelectPokemonPikachu - 2020.05.13 at 23h 33m 15s.xml">
       <configuration name="SelectPokemonTest.itShouldSelectPokemonPikachu" configurationId="JUnit" />
     </history-entry>
@@ -340,12 +338,15 @@
     <history-entry file="SelectPokemonTest_itShouldSelectBulbasaur - 2020.05.14 at 19h 25m 29s.xml">
       <configuration name="SelectPokemonTest.itShouldSelectBulbasaur" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="SelectPokemonTest_itShouldSelectBulbasaur - 2020.05.14 at 19h 28m 43s.xml">
+      <configuration name="SelectPokemonTest.itShouldSelectBulbasaur" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21393000" />
+    <option name="totallyTimeSpent" value="21736000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="821" extended-state="0" />
+    <frame x="258" y="283" width="1440" height="821" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18955651" />
@@ -425,8 +426,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/SelectPokemonTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="46" column="50" selection-start-line="46" selection-start-column="50" selection-end-line="46" selection-end-column="50" />
+        <state relative-caret-position="371">
+          <caret line="42" column="61" selection-start-line="42" selection-start-column="61" selection-end-line="42" selection-end-column="61" />
         </state>
       </provider>
     </entry>

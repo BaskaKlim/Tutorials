@@ -40,7 +40,7 @@ public class SelectPokemonTest {
         new Select(driver.findElement(By.className("form-control"))).selectByVisibleText("Bulbasaur");
         //2. assert that the text below picture contain
         String text = driver.findElement(By.xpath("//div/h3")).getText();
-        Assert.assertTrue(text.contains("Bulbasaur"));
+        Assert.assertTrue("Pikacu sa v texte nenachadzza",text.contains("Pikacu"));
     }
 
     @Test
