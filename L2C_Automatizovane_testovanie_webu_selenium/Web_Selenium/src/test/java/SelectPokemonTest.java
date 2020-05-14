@@ -28,17 +28,28 @@ public class SelectPokemonTest {
     }
 
     @Test
-     //TODO: nechat vypisat vsetky moznosti z dropdownu
     public void itShouldSelectCharmander() {
-    List<WebElement> options = new Select(driver.findElement(By.className("form-control"))).getOptions();
-    for (int i=0; i<options.size();i++){
-        System.out.println(options.get(i).getText());
-    }
+        new Select(driver.findElement(By.className("form-control"))).selectByValue("01");
 
     }
 
     @Test
+    //TODO: vyprat z dropdownu moznost via ByVisible Text a overit hlasku pod obrazkom ci obsahuje dany text
     public void itShouldSelectBulbasaur() {
+        //1. select bulbasaur via visibleText
         new Select(driver.findElement(By.className("form-control"))).selectByVisibleText("Bulbasaur");
+        //2. assert that the text below picture contain
+        String text = driver.findElement(By.xpath("//div/h3")).getText();
+        Assert.assertTrue(text.contains("Bulbasaur"));
     }
+
+    @Test
+    //TODO: nechat vypisat vsetky moznosti z dropdownu
+    public void itShouldPrintAllOptions() {
+        List<WebElement> options = new Select(driver.findElement(By.className("form-control"))).getOptions();
+        for (int i = 0; i < options.size(); i++) {
+            System.out.println(options.get(i).getText());
+        }
+    }
+
 }
