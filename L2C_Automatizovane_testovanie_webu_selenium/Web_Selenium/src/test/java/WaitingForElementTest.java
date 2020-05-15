@@ -42,5 +42,17 @@ public class WaitingForElementTest {
 
     }
 
+    @Test
+    //TODO: wait for image - using WebDriverWait for dynamic waiting
+    public void itShouldWaitForImageElement2() throws InterruptedException {
+        //click to button "zobrazit"
+        driver.findElement(By.id("showHim")).click();
+        // wait maximum 5 secund until state that image is visibile
+        new WebDriverWait(driver, 5).until(ExpectedConditions.visibilityOfElementLocated(By.xpath(("//img[@class='brano']"))));
+        //find image of Brano Mojsej
+        driver.findElement(By.xpath("//img[@class='brano']"));
+
+    }
+
 }
 
