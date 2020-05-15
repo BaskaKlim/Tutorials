@@ -69,6 +69,10 @@ public class NavBarTest {
         System.out.println(driver.findElement(By.name("email")).getAttribute("Value"));
 
         Assert.assertEquals(email,driver.findElement(By.name("email")).getAttribute("Value"));
+
+        driver.navigate().forward();
+        new WebDriverWait(driver, 10).until(ExpectedConditions.presenceOfElementLocated(By.xpath("//img[@src='img/conchita.jpg']")));
+        Assert.assertEquals(email,driver.findElement(By.xpath("//img[@src='img/conchita.jpg']")).isDisplayed());
     }
 
 }
