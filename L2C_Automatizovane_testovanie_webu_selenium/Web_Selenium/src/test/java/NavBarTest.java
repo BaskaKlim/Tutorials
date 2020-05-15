@@ -1,3 +1,4 @@
+import java.util.*;
 import org.junit.*;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.*;
@@ -7,7 +8,7 @@ import static org.junit.Assert.*;
 public class NavBarTest {
 
     private WebDriver driver;
-    final private String BASE_URL = "http://localhost";
+    final private String BASE_URL = "http://localhost:8888/";
     private StringBuffer verificationErrors = new StringBuffer();
 
     @Before
@@ -40,27 +41,18 @@ public class NavBarTest {
     public void itShouldMarkEachCurrentPageInNavigation() {
         String expectedClass = "active";
 
-        driver.get(BASE_URL + ":8888/zjavenie.php");
-        Assert.assertTrue(driver.findElement(By.xpath("//li[a/@href='zjavenie.php']")).getAttribute("class").contains(expectedClass));
+        List<String> pages = new ArrayList<>();
+        pages.add("zjavenie.php");
+        pages.add("clickmebaby.php");
+        pages.add("vybersi.php");
+        pages.add("zjavenie.php");
+        pages.add("redalert.php");
+        pages.add("kalkulacka.php");
 
-
-        driver.get(BASE_URL + ":8888/clickmebaby.php");
-        Assert.assertTrue(driver.findElement(By.xpath("//li[a/@href='clickmebaby.php']")).getAttribute("class").contains(expectedClass));
-
-
-        driver.get(BASE_URL + ":8888/vybersi.php");
-        Assert.assertTrue(driver.findElement(By.xpath("//li[a/@href='vybersi.php']")).getAttribute("class").contains(expectedClass));
-
-
-        driver.get(BASE_URL + ":8888/redalert.php");
-        Assert.assertTrue(driver.findElement(By.xpath("//li[a/@href='redalert.php']")).getAttribute("class").contains(expectedClass));
-        
-
-        driver.get(BASE_URL + ":8888/kalkulacka.php");
-        Assert.assertTrue(driver.findElement(By.xpath("//li[a/@href='kalkulacka.php']")).getAttribute("class").contains(expectedClass));
-
-
-
+        for (String page : pages) {
+            driver.get(BASE_URL + page);
+            Assert.assertTrue(driver.findElement(By.xpath("//li[a/@href='" + page + "']")).getAttribute("class").contains(expectedClass));
+        }
     }
 
 }

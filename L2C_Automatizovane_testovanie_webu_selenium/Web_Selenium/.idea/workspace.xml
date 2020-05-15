@@ -33,8 +33,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/NavBarTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="42" column="87" selection-start-line="42" selection-start-column="87" selection-end-line="42" selection-end-column="87" />
+            <state relative-caret-position="336">
+              <caret line="54" column="9" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -135,7 +135,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1589548385667" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1589551382468" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -169,7 +169,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.NavBarTest.itShouldMarkTheCurrecntPageInNavigation">
+  <component name="RunManager" selected="JUnit.NavBarTest.itShouldMarkEachCurrentPageInNavigation">
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
@@ -196,11 +196,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NavBarTest.itShouldMarkTheCurrecntPageInNavigation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="NavBarTest.itShouldMarkEachCurrentPageInNavigation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="automation-webtesting-selenium" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="NavBarTest" />
-      <option name="METHOD_NAME" value="itShouldMarkTheCurrecntPageInNavigation" />
+      <option name="METHOD_NAME" value="itShouldMarkEachCurrentPageInNavigation" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="TEST_SEARCH_SCOPE">
@@ -210,11 +210,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TableTest.testVerify" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="NavBarTest.itShouldMarkTheCurrecntPageInNavigation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="automation-webtesting-selenium" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TableTest" />
-      <option name="METHOD_NAME" value="testVerify" />
+      <option name="MAIN_CLASS_NAME" value="NavBarTest" />
+      <option name="METHOD_NAME" value="itShouldMarkTheCurrecntPageInNavigation" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="TEST_SEARCH_SCOPE">
@@ -290,11 +290,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.NavBarTest.itShouldMarkEachCurrentPageInNavigation" />
         <item itemvalue="JUnit.NavBarTest.itShouldMarkTheCurrecntPageInNavigation" />
         <item itemvalue="JUnit.WaitingForElementTest.itShoulValidateThatPictureIsDisplayed" />
         <item itemvalue="JUnit.WaitingForElementTest.itShouldWaitForImageElement2" />
         <item itemvalue="JUnit.WaitingForElementTest.itShouldWaitForImageElement" />
-        <item itemvalue="JUnit.TableTest.testVerify" />
       </list>
     </recent_temporary>
   </component>
@@ -311,14 +311,11 @@
       <workItem from="1587813508914" duration="10714000" />
       <workItem from="1588881007513" duration="9720000" />
       <workItem from="1589478803719" duration="802000" />
-      <workItem from="1589480182894" duration="7060000" />
+      <workItem from="1589480182894" duration="8177000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TableTest_testVerify - 2020.05.14 at 23h 53m 54s.xml">
-      <configuration name="TableTest.testVerify" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TableTest_testVerify - 2020.05.14 at 23h 54m 21s.xml">
       <configuration name="TableTest.testVerify" configurationId="JUnit" />
     </history-entry>
@@ -346,9 +343,12 @@
     <history-entry file="NavBarTest_itShouldMarkTheCurrecntPageInNavigation - 2020.05.15 at 15h 02m 37s.xml">
       <configuration name="NavBarTest.itShouldMarkTheCurrecntPageInNavigation" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="NavBarTest_itShouldMarkEachCurrentPageInNavigation - 2020.05.15 at 16h 03m 06s.xml">
+      <configuration name="NavBarTest.itShouldMarkEachCurrentPageInNavigation" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30687000" />
+    <option name="totallyTimeSpent" value="31804000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="822" extended-state="6" />
@@ -538,8 +538,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/NavBarTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="42" column="87" selection-start-line="42" selection-start-column="87" selection-end-line="42" selection-end-column="87" />
+        <state relative-caret-position="336">
+          <caret line="54" column="9" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
         </state>
       </provider>
     </entry>
