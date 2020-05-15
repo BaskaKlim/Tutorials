@@ -1,3 +1,4 @@
+import java.util.*;
 import org.junit.*;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.*;
@@ -27,7 +28,7 @@ public class ColorCheckTest {
     }
 
     @Test
-
+    //TODO: vypisat farbu prveho elementu - nazvu green
     public void itShouldPrintColorOfElement(){
         //text prveho elementu
         driver.findElement(By.xpath("//div[contains(@class,colours)]/h1[1]")).getText();
@@ -36,4 +37,13 @@ public class ColorCheckTest {
         
     }
 
+    @Test
+    //TODO: vypisat farby vsetkych elementov
+    public void itShouldPrintColorOfEachElements(){
+        List<WebElement> titles = driver.findElements(By.xpath("//div[contains(@class,'colours')]/h1"));
+        for (WebElement title : titles) {
+            System.out.println(title.getText());
+            System.out.println(title.getCssValue("color"));
+        }
+    }
 }
