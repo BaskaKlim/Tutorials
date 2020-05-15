@@ -64,12 +64,12 @@ public class NavBarTest {
 
         driver.findElement(By.name("email")).sendKeys(email);
         driver.findElement(By.xpath("//a[@href='zenaalebomuz.php']")).click();
+        //testing back step
         driver.navigate().back();
         new WebDriverWait(driver, 10).until(ExpectedConditions.presenceOfElementLocated(By.name("email")));
         System.out.println(driver.findElement(By.name("email")).getAttribute("Value"));
-
         Assert.assertEquals(email,driver.findElement(By.name("email")).getAttribute("Value"));
-
+        //tetsing forward step
         driver.navigate().forward();
         new WebDriverWait(driver, 10).until(ExpectedConditions.presenceOfElementLocated(By.xpath("//img[@src='img/conchita.jpg']")));
         Assert.assertEquals(email,driver.findElement(By.xpath("//img[@src='img/conchita.jpg']")).isDisplayed());
