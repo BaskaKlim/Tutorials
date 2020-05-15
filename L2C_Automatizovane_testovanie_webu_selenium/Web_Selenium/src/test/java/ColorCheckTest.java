@@ -26,4 +26,14 @@ public class ColorCheckTest {
         }
     }
 
+    @Test
+
+    public void itShouldPrintColorOfElement(){
+        //text prveho elementu
+        driver.findElement(By.xpath("//div[contains(@class,colours)]/h1[1]")).getText();
+        //farba prveho elementu  takze sa musim dostat k css vlastnostiam daneho elementu
+        System.out.println(driver.findElement(By.xpath("//div[contains(@class,'colours')]/h1[1]")).getCssValue("color"));
+        
+    }
+
 }
