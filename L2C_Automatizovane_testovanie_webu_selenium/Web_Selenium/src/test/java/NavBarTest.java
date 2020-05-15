@@ -29,9 +29,36 @@ public class NavBarTest {
     @Test
     //TODO: over ci je vyznacena podstranka na navigacii ta, na ktorej sa prave nachadzas
 
-    public void itShouldMarkTheCurrecntPageInNavigation(){
+    public void itShouldMarkTheCurrecntPageInNavigation() {
         driver.get(BASE_URL + ":8888/zjavenie.php");
         Assert.assertTrue(driver.findElement(By.xpath("//li[a/@href='zjavenie.php']")).getAttribute("class").contains("active"));
+
+    }
+
+    @Test
+    //TODO: overit, ci sa to deje pre vsetky/viacere podstranky
+    public void itShouldMarkEachCurrentPageInNavigation() {
+
+        driver.get(BASE_URL + ":8888/zjavenie.php");
+        Assert.assertTrue(driver.findElement(By.xpath("//li[a/@href='zjavenie.php']")).getAttribute("class").contains("active"));
+
+
+        driver.get(BASE_URL + ":8888/clickmebaby.php");
+        Assert.assertTrue(driver.findElement(By.xpath("//li[a/@href='clickmebaby.php']")).getAttribute("class").contains("active"));
+
+
+        driver.get(BASE_URL + ":8888/vybersi.php");
+        Assert.assertTrue(driver.findElement(By.xpath("//li[a/@href='vybersi.php']")).getAttribute("class").contains("active"));
+
+
+        driver.get(BASE_URL + ":8888/redalert.php");
+        Assert.assertTrue(driver.findElement(By.xpath("//li[a/@href='redalert.php']")).getAttribute("class").contains("active"));
+        
+
+        driver.get(BASE_URL + ":8888/kalkulacka.php");
+        Assert.assertTrue(driver.findElement(By.xpath("//li[a/@href='kalkulacka.php']")).getAttribute("class").contains("active"));
+
+
 
     }
 

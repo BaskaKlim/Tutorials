@@ -33,8 +33,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/NavBarTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="33" column="83" selection-start-line="33" selection-start-column="83" selection-end-line="33" selection-end-column="83" />
+            <state relative-caret-position="282">
+              <caret line="42" column="87" selection-start-line="42" selection-start-column="87" selection-end-line="42" selection-end-column="87" />
             </state>
           </provider>
         </entry>
@@ -135,7 +135,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1589547754285" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1589548264979" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -311,14 +311,11 @@
       <workItem from="1587813508914" duration="10714000" />
       <workItem from="1588881007513" duration="9720000" />
       <workItem from="1589478803719" duration="802000" />
-      <workItem from="1589480182894" duration="6643000" />
+      <workItem from="1589480182894" duration="7060000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="NemenneTest_itShouldValidateThatElemensOfFormAreOrAreNotEnabled - 2020.05.14 at 23h 41m 45s.xml">
-      <configuration name="NemenneTest.itShouldValidateThatElemensOfFormAreOrAreNotEnabled" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TableTest_testVerify - 2020.05.14 at 23h 53m 54s.xml">
       <configuration name="TableTest.testVerify" configurationId="JUnit" />
     </history-entry>
@@ -346,9 +343,12 @@
     <history-entry file="WaitingForElementTest_itShoulValidateThatPictureIsDisplayed - 2020.05.15 at 14h 15m 11s.xml">
       <configuration name="WaitingForElementTest.itShoulValidateThatPictureIsDisplayed" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="NavBarTest_itShouldMarkTheCurrecntPageInNavigation - 2020.05.15 at 15h 02m 37s.xml">
+      <configuration name="NavBarTest.itShouldMarkTheCurrecntPageInNavigation" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30270000" />
+    <option name="totallyTimeSpent" value="30687000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="822" extended-state="6" />
@@ -538,8 +538,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/NavBarTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="33" column="83" selection-start-line="33" selection-start-column="83" selection-end-line="33" selection-end-column="83" />
+        <state relative-caret-position="282">
+          <caret line="42" column="87" selection-start-line="42" selection-start-column="87" selection-end-line="42" selection-end-column="87" />
         </state>
       </provider>
     </entry>
