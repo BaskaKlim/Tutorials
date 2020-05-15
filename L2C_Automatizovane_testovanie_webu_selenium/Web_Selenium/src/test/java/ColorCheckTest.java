@@ -2,6 +2,7 @@ import java.util.*;
 import org.junit.*;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.*;
+import org.openqa.selenium.support.*;
 
 import static org.junit.Assert.*;
 
@@ -44,6 +45,9 @@ public class ColorCheckTest {
         for (WebElement title : titles) {
             System.out.println(title.getText());
             System.out.println(title.getCssValue("color"));
+            //vypisem si farbu v hexadecimalnom kode nie v rgb
+            String hexColor = Color.fromString(title.getCssValue("color")).asHex();
+            System.out.println(hexColor);
         }
     }
 

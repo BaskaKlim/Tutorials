@@ -33,8 +33,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ColorCheckTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="354">
-              <caret line="49" column="28" lean-forward="true" selection-start-line="49" selection-start-column="28" selection-end-line="49" selection-end-column="28" />
+            <state relative-caret-position="246">
+              <caret line="44" column="30" selection-start-line="44" selection-start-column="30" selection-end-line="44" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -136,7 +136,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1589556048719" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1589556378053" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -170,7 +170,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ColorCheckTest.itShouldPrintFontSizeOfElement">
+  <component name="RunManager" selected="JUnit.ColorCheckTest.itShouldPrintColorOfEachElements">
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
@@ -291,8 +291,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ColorCheckTest.itShouldPrintFontSizeOfElement" />
         <item itemvalue="JUnit.ColorCheckTest.itShouldPrintColorOfEachElements" />
+        <item itemvalue="JUnit.ColorCheckTest.itShouldPrintFontSizeOfElement" />
         <item itemvalue="JUnit.ColorCheckTest.itShouldPrintColorOfElement" />
         <item itemvalue="JUnit.NavBarTest.itShouldMarkEachCurrentPageInNavigation" />
         <item itemvalue="JUnit.NavBarTest.itShouldMarkTheCurrecntPageInNavigation" />
@@ -312,14 +312,11 @@
       <workItem from="1587813508914" duration="10714000" />
       <workItem from="1588881007513" duration="9720000" />
       <workItem from="1589478803719" duration="802000" />
-      <workItem from="1589480182894" duration="10023000" />
+      <workItem from="1589480182894" duration="10325000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="WaitingForElementTest_itShouldWaitForImageElement - 2020.05.15 at 14h 01m 34s.xml">
-      <configuration name="WaitingForElementTest.itShouldWaitForImageElement" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="WaitingForElementTest_itShouldWaitForImageElement2 - 2020.05.15 at 14h 06m 40s.xml">
       <configuration name="WaitingForElementTest.itShouldWaitForImageElement2" configurationId="JUnit" />
     </history-entry>
@@ -347,9 +344,12 @@
     <history-entry file="ColorCheckTest_itShouldPrintColorOfEachElements - 2020.05.15 at 16h 26m 57s.xml">
       <configuration name="ColorCheckTest.itShouldPrintColorOfEachElements" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ColorCheckTest_itShouldPrintFontSizeOfElement - 2020.05.15 at 17h 20m 51s.xml">
+      <configuration name="ColorCheckTest.itShouldPrintFontSizeOfElement" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33650000" />
+    <option name="totallyTimeSpent" value="33952000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="822" extended-state="6" />
@@ -554,8 +554,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ColorCheckTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="49" column="28" lean-forward="true" selection-start-line="49" selection-start-column="28" selection-end-line="49" selection-end-column="28" />
+        <state relative-caret-position="246">
+          <caret line="44" column="30" selection-start-line="44" selection-start-column="30" selection-end-line="44" selection-end-column="30" />
         </state>
       </provider>
     </entry>
