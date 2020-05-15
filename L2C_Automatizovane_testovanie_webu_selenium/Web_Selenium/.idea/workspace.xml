@@ -51,8 +51,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/WaitingForElementTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="50" column="126" selection-start-line="50" selection-start-column="126" selection-end-line="50" selection-end-column="126" />
+            <state relative-caret-position="264">
+              <caret line="58" column="94" selection-start-line="58" selection-start-column="94" selection-end-line="58" selection-end-column="94" />
             </state>
           </provider>
         </entry>
@@ -152,7 +152,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1589544549955" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1589544899721" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -186,7 +186,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.WaitingForElementTest.itShouldWaitForImageElement2">
+  <component name="RunManager" selected="JUnit.WaitingForElementTest.itShoulValidateThatPictureIsDisplayed">
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
@@ -205,20 +205,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ClickMeBabyWebTest" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NemenneTest.itShouldValidateThatElemensOfFormAreNotEnabled" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="automation-webtesting-selenium" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="NemenneTest" />
-      <option name="METHOD_NAME" value="itShouldValidateThatElemensOfFormAreNotEnabled" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="moduleWithDependencies" />
@@ -246,6 +232,20 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TableTest" />
       <option name="METHOD_NAME" value="testVerify" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WaitingForElementTest.itShoulValidateThatPictureIsDisplayed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="automation-webtesting-selenium" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="WaitingForElementTest" />
+      <option name="METHOD_NAME" value="itShoulValidateThatPictureIsDisplayed" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="TEST_SEARCH_SCOPE">
@@ -307,11 +307,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.WaitingForElementTest.itShoulValidateThatPictureIsDisplayed" />
         <item itemvalue="JUnit.WaitingForElementTest.itShouldWaitForImageElement2" />
         <item itemvalue="JUnit.WaitingForElementTest.itShouldWaitForImageElement" />
         <item itemvalue="JUnit.TableTest.testVerify" />
         <item itemvalue="JUnit.NemenneTest.itShouldValidateThatElemensOfFormAreOrAreNotEnabled" />
-        <item itemvalue="JUnit.NemenneTest.itShouldValidateThatElemensOfFormAreNotEnabled" />
       </list>
     </recent_temporary>
   </component>
@@ -328,14 +328,11 @@
       <workItem from="1587813508914" duration="10714000" />
       <workItem from="1588881007513" duration="9720000" />
       <workItem from="1589478803719" duration="802000" />
-      <workItem from="1589480182894" duration="5303000" />
+      <workItem from="1589480182894" duration="5723000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="NemenneTest_itShouldValidateThatElemensOfFormAreOrAreNotEnabled - 2020.05.14 at 23h 40m 01s.xml">
-      <configuration name="NemenneTest.itShouldValidateThatElemensOfFormAreOrAreNotEnabled" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="NemenneTest_itShouldValidateThatElemensOfFormAreOrAreNotEnabled - 2020.05.14 at 23h 40m 19s.xml">
       <configuration name="NemenneTest.itShouldValidateThatElemensOfFormAreOrAreNotEnabled" configurationId="JUnit" />
     </history-entry>
@@ -363,9 +360,12 @@
     <history-entry file="WaitingForElementTest_itShouldWaitForImageElement2 - 2020.05.15 at 14h 06m 40s.xml">
       <configuration name="WaitingForElementTest.itShouldWaitForImageElement2" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="WaitingForElementTest_itShouldWaitForImageElement2 - 2020.05.15 at 14h 07m 04s.xml">
+      <configuration name="WaitingForElementTest.itShouldWaitForImageElement2" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28930000" />
+    <option name="totallyTimeSpent" value="29350000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="822" extended-state="6" />
@@ -548,8 +548,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/WaitingForElementTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="50" column="126" selection-start-line="50" selection-start-column="126" selection-end-line="50" selection-end-column="126" />
+        <state relative-caret-position="264">
+          <caret line="58" column="94" selection-start-line="58" selection-start-column="94" selection-end-line="58" selection-end-column="94" />
         </state>
       </provider>
     </entry>

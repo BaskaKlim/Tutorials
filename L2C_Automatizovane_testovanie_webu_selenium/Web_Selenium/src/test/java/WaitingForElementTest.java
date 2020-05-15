@@ -54,5 +54,12 @@ public class WaitingForElementTest {
 
     }
 
+    @Test
+    public void itShoulValidateThatPictureIsDisplayed(){
+        driver.findElement(By.id("showHim")).click();
+        new WebDriverWait(driver, 5).until(ExpectedConditions.visibilityOfElementLocated(By.xpath(("//img[@class='brano']"))));
+        Assert.assertTrue(driver.findElement(By.xpath("//img[@class='brano']")).isDisplayed());
+    }
+
 }
 
