@@ -2,6 +2,7 @@ import java.util.*;
 import org.junit.*;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.*;
+import org.openqa.selenium.support.ui.*;
 
 import static org.junit.Assert.*;
 
@@ -53,6 +54,21 @@ public class NavBarTest {
             driver.get(BASE_URL + page);
             Assert.assertTrue(driver.findElement(By.xpath("//li[a/@href='" + page + "']")).getAttribute("class").contains(expectedClass));
         }
+    }
+
+    @Test
+
+    public void itShouldTestBackAndForward() {
+        driver.get(BASE_URL + "registracia.php");
+        String email = "barbara@klimek.sk";
+
+        driver.findElement(By.name("email")).sendKeys(email);
+        driver.findElement(By.xpath("//a[@href='zenaalebomuz.php']")).click();
+        driver.navigate().back();
+        new WebDriverWait(driver, 10).until(ExpectedConditions.presenceOfElementLocated(By.name("email")));
+        System.out.println(driver.findElement(By.name("email")).getAttribute("Value"));
+
+        Assert.assertEquals(email,driver.findElement(By.name("email")).getAttribute("Value"));
     }
 
 }

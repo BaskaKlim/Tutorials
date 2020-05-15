@@ -21,20 +21,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/NavBarTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="39" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="29" />
+            <state relative-caret-position="354">
+              <caret line="70" column="34" selection-start-line="70" selection-start-column="34" selection-end-line="70" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ColorCheckTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="449">
-              <caret line="68" column="7" selection-start-line="68" selection-start-column="7" selection-end-line="68" selection-end-column="7" />
+            <state relative-caret-position="264">
+              <caret line="67" column="90" selection-start-line="67" selection-start-column="90" selection-end-line="67" selection-end-column="90" />
             </state>
           </provider>
         </entry>
@@ -63,8 +63,8 @@
         <option value="$PROJECT_DIR$/src/test/java/NemenneTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/TableTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/WaitingForElementTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/NavBarTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ColorCheckTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/NavBarTest.java" />
       </list>
     </option>
   </component>
@@ -136,7 +136,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1589556787523" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1589566021574" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -170,7 +170,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ColorCheckTest.itShouldValidateExpectedColorOfElement">
+  <component name="RunManager" selected="JUnit.NavBarTest.itShouldTestBackAndForward">
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
@@ -253,11 +253,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NavBarTest.itShouldMarkEachCurrentPageInNavigation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="NavBarTest.itShouldTestBackAndForward" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="automation-webtesting-selenium" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="NavBarTest" />
-      <option name="METHOD_NAME" value="itShouldMarkEachCurrentPageInNavigation" />
+      <option name="METHOD_NAME" value="itShouldTestBackAndForward" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="TEST_SEARCH_SCOPE">
@@ -291,11 +291,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.NavBarTest.itShouldTestBackAndForward" />
         <item itemvalue="JUnit.ColorCheckTest.itShouldValidateExpectedColorOfElement" />
         <item itemvalue="JUnit.ColorCheckTest.itShouldPrintFontSizeOfElement" />
         <item itemvalue="JUnit.ColorCheckTest.itShouldPrintColorOfEachElements" />
         <item itemvalue="JUnit.ColorCheckTest.itShouldPrintColorOfElement" />
-        <item itemvalue="JUnit.NavBarTest.itShouldMarkEachCurrentPageInNavigation" />
       </list>
     </recent_temporary>
   </component>
@@ -312,29 +312,11 @@
       <workItem from="1587813508914" duration="10714000" />
       <workItem from="1588881007513" duration="9720000" />
       <workItem from="1589478803719" duration="802000" />
-      <workItem from="1589480182894" duration="10595000" />
+      <workItem from="1589480182894" duration="12432000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="WaitingForElementTest_itShouldWaitForImageElement2 - 2020.05.15 at 14h 07m 04s.xml">
-      <configuration name="WaitingForElementTest.itShouldWaitForImageElement2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WaitingForElementTest_itShoulValidateThatPictureIsDisplayed - 2020.05.15 at 14h 14m 37s.xml">
-      <configuration name="WaitingForElementTest.itShoulValidateThatPictureIsDisplayed" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WaitingForElementTest_itShoulValidateThatPictureIsDisplayed - 2020.05.15 at 14h 15m 11s.xml">
-      <configuration name="WaitingForElementTest.itShoulValidateThatPictureIsDisplayed" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NavBarTest_itShouldMarkTheCurrecntPageInNavigation - 2020.05.15 at 15h 02m 37s.xml">
-      <configuration name="NavBarTest.itShouldMarkTheCurrecntPageInNavigation" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NavBarTest_itShouldMarkEachCurrentPageInNavigation - 2020.05.15 at 16h 03m 06s.xml">
-      <configuration name="NavBarTest.itShouldMarkEachCurrentPageInNavigation" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ColorCheckTest_itShouldPrintColorOfElement - 2020.05.15 at 16h 17m 32s.xml">
-      <configuration name="ColorCheckTest.itShouldPrintColorOfElement" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ColorCheckTest_itShouldPrintColorOfElement - 2020.05.15 at 16h 21m 16s.xml">
       <configuration name="ColorCheckTest.itShouldPrintColorOfElement" configurationId="JUnit" />
     </history-entry>
@@ -347,9 +329,27 @@
     <history-entry file="ColorCheckTest_itShouldPrintColorOfEachElements - 2020.05.15 at 17h 26m 20s.xml">
       <configuration name="ColorCheckTest.itShouldPrintColorOfEachElements" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ColorCheckTest_itShouldPrintFontSizeOfElement - 2020.05.15 at 17h 31m 30s.xml">
+      <configuration name="ColorCheckTest.itShouldPrintFontSizeOfElement" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ColorCheckTest_itShouldPrintFontSizeOfElement - 2020.05.15 at 17h 32m 20s.xml">
+      <configuration name="ColorCheckTest.itShouldPrintFontSizeOfElement" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ColorCheckTest_itShouldValidateExpectedColorOfElement - 2020.05.15 at 17h 33m 09s.xml">
+      <configuration name="ColorCheckTest.itShouldValidateExpectedColorOfElement" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NavBarTest_itShouldTestBackAndForward - 2020.05.15 at 17h 41m 05s.xml">
+      <configuration name="NavBarTest.itShouldTestBackAndForward" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NavBarTest_itShouldTestBackAndForward - 2020.05.15 at 17h 42m 18s.xml">
+      <configuration name="NavBarTest.itShouldTestBackAndForward" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NavBarTest_itShouldTestBackAndForward - 2020.05.15 at 20h 03m 33s.xml">
+      <configuration name="NavBarTest.itShouldTestBackAndForward" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34222000" />
+    <option name="totallyTimeSpent" value="36059000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="822" extended-state="6" />
@@ -439,7 +439,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/ColorCheckTest.java</url>
-          <line>32</line>
+          <line>33</line>
           <properties class="ColorCheckTest" method="itShouldPrintColorOfElement">
             <option name="EMULATED" value="true" />
           </properties>
@@ -545,17 +545,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/NavBarTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ColorCheckTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="39" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="29" />
+        <state relative-caret-position="264">
+          <caret line="67" column="90" selection-start-line="67" selection-start-column="90" selection-end-line="67" selection-end-column="90" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ColorCheckTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/NavBarTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="68" column="7" selection-start-line="68" selection-start-column="7" selection-end-line="68" selection-end-column="7" />
+        <state relative-caret-position="354">
+          <caret line="70" column="34" selection-start-line="70" selection-start-column="34" selection-end-line="70" selection-end-column="34" />
         </state>
       </provider>
     </entry>
