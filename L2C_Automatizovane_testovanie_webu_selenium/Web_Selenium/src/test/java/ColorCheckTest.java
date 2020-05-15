@@ -7,6 +7,7 @@ import org.openqa.selenium.support.*;
 import static org.junit.Assert.*;
 
 public class ColorCheckTest {
+
     private WebDriver driver;
     final private String BASE_URL = "http://localhost:8888/";
     private StringBuffer verificationErrors = new StringBuffer();
@@ -30,17 +31,17 @@ public class ColorCheckTest {
 
     @Test
     //TODO: vypisat farbu prveho elementu - nazvu green
-    public void itShouldPrintColorOfElement(){
+    public void itShouldPrintColorOfElement() {
         //text prveho elementu
-        driver.findElement(By.xpath("//div[contains(@class,colours)]/h1[1]")).getText();
+        driver.findElement(By.xpath("//div[contains(@class,'colours')]/h1[1]")).getText();
         //farba prveho elementu  takze sa musim dostat k css vlastnostiam daneho elementu
         System.out.println(driver.findElement(By.xpath("//div[contains(@class,'colours')]/h1[1]")).getCssValue("color"));
-        
+
     }
 
     @Test
     //TODO: vypisat farby vsetkych elementov
-    public void itShouldPrintColorOfEachElements(){
+    public void itShouldPrintColorOfEachElements() {
         List<WebElement> titles = driver.findElements(By.xpath("//div[contains(@class,'colours')]/h1"));
         for (WebElement title : titles) {
             System.out.println(title.getText());
@@ -53,10 +54,18 @@ public class ColorCheckTest {
 
     @Test
     //TODO: vypisat farbu prveho elementu - nazvu green
-    public void itShouldPrintFontSizeOfElement(){
-        //text prveho elementu
-        driver.findElement(By.xpath("//div[contains(@class,colours)]/h1[1]")).getText();
-        //farba prveho elementu  takze sa musim dostat k css vlastnostiam daneho elementu
+    public void itShouldPrintFontSizeOfElement() {
+
+        String rgbaColor = driver.findElement(By.xpath("//div[contains(@class,'colours')]/h1[1]")).getCssValue("color");
+        String hexColor = Color.fromString(rgbaColor).asHex();
+        Assert.assertEquals("#ff0d0e", hexColor);
+
+    }
+
+    @Test
+    //TODO: overit ci farba textu je ocakavana farba
+    public void itShouldValidateExpectedColorOfElement() {
+        driver.findElement(By.xpath("//div[contains(@class,'colours')]/h1[1]")).getText();
         System.out.println(driver.findElement(By.xpath("//div[contains(@class,'colours')]/h1[1]")).getCssValue("font-size"));
 
     }

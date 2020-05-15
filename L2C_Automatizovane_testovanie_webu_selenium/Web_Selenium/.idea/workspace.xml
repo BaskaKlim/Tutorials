@@ -33,8 +33,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ColorCheckTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="44" column="30" selection-start-line="44" selection-start-column="30" selection-end-line="44" selection-end-column="30" />
+            <state relative-caret-position="449">
+              <caret line="68" column="7" selection-start-line="68" selection-start-column="7" selection-end-line="68" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -136,7 +136,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1589556378053" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1589556787523" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -170,7 +170,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ColorCheckTest.itShouldPrintColorOfEachElements">
+  <component name="RunManager" selected="JUnit.ColorCheckTest.itShouldValidateExpectedColorOfElement">
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
@@ -239,11 +239,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NavBarTest.itShouldMarkEachCurrentPageInNavigation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ColorCheckTest.itShouldValidateExpectedColorOfElement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="automation-webtesting-selenium" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="NavBarTest" />
-      <option name="METHOD_NAME" value="itShouldMarkEachCurrentPageInNavigation" />
+      <option name="MAIN_CLASS_NAME" value="ColorCheckTest" />
+      <option name="METHOD_NAME" value="itShouldValidateExpectedColorOfElement" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="TEST_SEARCH_SCOPE">
@@ -253,11 +253,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NavBarTest.itShouldMarkTheCurrecntPageInNavigation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="NavBarTest.itShouldMarkEachCurrentPageInNavigation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="automation-webtesting-selenium" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="NavBarTest" />
-      <option name="METHOD_NAME" value="itShouldMarkTheCurrecntPageInNavigation" />
+      <option name="METHOD_NAME" value="itShouldMarkEachCurrentPageInNavigation" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="TEST_SEARCH_SCOPE">
@@ -291,11 +291,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ColorCheckTest.itShouldPrintColorOfEachElements" />
+        <item itemvalue="JUnit.ColorCheckTest.itShouldValidateExpectedColorOfElement" />
         <item itemvalue="JUnit.ColorCheckTest.itShouldPrintFontSizeOfElement" />
+        <item itemvalue="JUnit.ColorCheckTest.itShouldPrintColorOfEachElements" />
         <item itemvalue="JUnit.ColorCheckTest.itShouldPrintColorOfElement" />
         <item itemvalue="JUnit.NavBarTest.itShouldMarkEachCurrentPageInNavigation" />
-        <item itemvalue="JUnit.NavBarTest.itShouldMarkTheCurrecntPageInNavigation" />
       </list>
     </recent_temporary>
   </component>
@@ -312,14 +312,11 @@
       <workItem from="1587813508914" duration="10714000" />
       <workItem from="1588881007513" duration="9720000" />
       <workItem from="1589478803719" duration="802000" />
-      <workItem from="1589480182894" duration="10325000" />
+      <workItem from="1589480182894" duration="10595000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="WaitingForElementTest_itShouldWaitForImageElement2 - 2020.05.15 at 14h 06m 40s.xml">
-      <configuration name="WaitingForElementTest.itShouldWaitForImageElement2" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="WaitingForElementTest_itShouldWaitForImageElement2 - 2020.05.15 at 14h 07m 04s.xml">
       <configuration name="WaitingForElementTest.itShouldWaitForImageElement2" configurationId="JUnit" />
     </history-entry>
@@ -347,9 +344,12 @@
     <history-entry file="ColorCheckTest_itShouldPrintFontSizeOfElement - 2020.05.15 at 17h 20m 51s.xml">
       <configuration name="ColorCheckTest.itShouldPrintFontSizeOfElement" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ColorCheckTest_itShouldPrintColorOfEachElements - 2020.05.15 at 17h 26m 20s.xml">
+      <configuration name="ColorCheckTest.itShouldPrintColorOfEachElements" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33952000" />
+    <option name="totallyTimeSpent" value="34222000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="822" extended-state="6" />
@@ -439,7 +439,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/ColorCheckTest.java</url>
-          <line>31</line>
+          <line>32</line>
           <properties class="ColorCheckTest" method="itShouldPrintColorOfElement">
             <option name="EMULATED" value="true" />
           </properties>
@@ -554,8 +554,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ColorCheckTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="44" column="30" selection-start-line="44" selection-start-column="30" selection-end-line="44" selection-end-column="30" />
+        <state relative-caret-position="449">
+          <caret line="68" column="7" selection-start-line="68" selection-start-column="7" selection-end-line="68" selection-end-column="7" />
         </state>
       </provider>
     </entry>
