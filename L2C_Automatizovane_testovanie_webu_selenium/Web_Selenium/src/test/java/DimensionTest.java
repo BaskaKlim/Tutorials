@@ -31,5 +31,11 @@ public class DimensionTest {
         Assert.assertEquals("1", driver.findElement(By.id("clicks")).getText());
     }
 
-    
+    @Test
+    //TODO: otestovat responzivitu webu
+    public void test2() {
+        //set max size for window
+        driver.manage().window().maximize();
+        Assert.assertTrue(driver.findElement(By.id("donald")).isDisplayed());
+    }
 }
