@@ -26,7 +26,8 @@ public class AfterTest {
         FileUtils.copyFile(screenshot, new File("Users/barbaraklimekova/Tutorials/L2C_Automatizovane_testovanie_webu_selenium/screens/screen.png"));
 
         // dat si vypisat do kontentu page source code
-        driver.getPageSource();
+        System.out.println(driver.getPageSource());
+        driver.close();
         driver.quit();
     }
 
