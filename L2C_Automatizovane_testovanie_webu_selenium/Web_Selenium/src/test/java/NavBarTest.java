@@ -87,11 +87,13 @@ public class NavBarTest {
     //TODO: prejst v navigacii vsetkymi podstrankami a overit ich title
     public void itShouldCheckEachPageTitle() throws InterruptedException {
         driver.get(BASE_URL);
-        System.out.println( driver.getTitle());
+        System.out.println(driver.getTitle());
         //najprv si zistim vsetky podsranky
         List<WebElement> pages = driver.findElements(By.xpath("//nav/div/ul/li/a"));
+        List<String> pageURLs = new ArrayList<>();
+        //ziskamne podstranky ulozim cez for cyklus do noveho listu pageURLs
         for (WebElement page : pages) {
-            System.out.println(page.getAttribute("href"));
+            pageURLs.add(page.getAttribute("href"));
         }
 
     }
