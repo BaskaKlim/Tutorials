@@ -99,6 +99,10 @@ public class NavBarTest {
         for (String pageURL : pageURLs) {
             driver.get(pageURL);
             System.out.println(driver.getTitle());
+            // ocakavana url bez localhostu a php
+            String expectTitles = pageURL.substring(pageURL.lastIndexOf("/") + 1, pageURL.indexOf(".php"));
+            //porovnanie, ci title je rovnaky , ale url ma male zaciatocne pismeno, musim pouzit uppercase na to pismeno
+            Assert.assertTrue(driver.getTitle().contains(expectTitles.substring(0, 1).toUpperCase() + expectTitles.substring(1)));
         }
 
     }
