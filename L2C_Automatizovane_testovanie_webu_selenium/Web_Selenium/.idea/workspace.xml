@@ -13,37 +13,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/WaitingForElementTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/SelectPokemonTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-474">
-              <caret line="19" column="59" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/NavBarTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="74" selection-start-line="73" selection-end-line="74" />
+            <state relative-caret-position="300">
+              <caret line="53" selection-start-line="53" selection-end-line="53" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/RefreshTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/NavBarTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="42" column="8" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ColorCheckTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="67" column="90" selection-start-line="67" selection-start-column="90" selection-end-line="67" selection-end-column="90" />
+            <state relative-caret-position="319">
+              <caret line="91" column="80" selection-start-line="91" selection-start-column="80" selection-end-line="91" selection-end-column="80" />
             </state>
           </provider>
         </entry>
@@ -66,15 +48,15 @@
         <option value="$PROJECT_DIR$/src/test/java/ClickMeBabyWebTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/RegistrationTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/XPathTests.java" />
-        <option value="$PROJECT_DIR$/src/test/java/SelectPokemonTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/AlertTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/RadioButtonTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/NemenneTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/TableTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/WaitingForElementTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ColorCheckTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/NavBarTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/RefreshTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/SelectPokemonTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/NavBarTest.java" />
       </list>
     </option>
   </component>
@@ -146,7 +128,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1589567431797" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1589633721421" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -180,7 +162,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RefreshTest.itShouldRefreshPage">
+  <component name="RunManager" selected="JUnit.NavBarTest.itShouldCheckEachPageTitle">
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
@@ -207,53 +189,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ColorCheckTest.itShouldPrintColorOfEachElements" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="automation-webtesting-selenium" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ColorCheckTest" />
-      <option name="METHOD_NAME" value="itShouldPrintColorOfEachElements" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ColorCheckTest.itShouldPrintFontSizeOfElement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="automation-webtesting-selenium" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ColorCheckTest" />
-      <option name="METHOD_NAME" value="itShouldPrintFontSizeOfElement" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ColorCheckTest.itShouldValidateExpectedColorOfElement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="automation-webtesting-selenium" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ColorCheckTest" />
-      <option name="METHOD_NAME" value="itShouldValidateExpectedColorOfElement" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NavBarTest.itShouldTestBackAndForward" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="NavBarTest.itShouldCheckEachPageTitle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="automation-webtesting-selenium" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="NavBarTest" />
-      <option name="METHOD_NAME" value="itShouldTestBackAndForward" />
+      <option name="METHOD_NAME" value="itShouldCheckEachPageTitle" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="TEST_SEARCH_SCOPE">
@@ -268,6 +208,48 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="RefreshTest" />
       <option name="METHOD_NAME" value="itShouldRefreshPage" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SelectPokemonTest.itShouldCheckEachPageTitle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="automation-webtesting-selenium" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SelectPokemonTest" />
+      <option name="METHOD_NAME" value="itShouldCheckEachPageTitle" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SelectPokemonTest.itShouldCheckPageTitle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="automation-webtesting-selenium" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SelectPokemonTest" />
+      <option name="METHOD_NAME" value="itShouldCheckPageTitle" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SelectPokemonTest.itShouldPrintPageTitle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="automation-webtesting-selenium" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SelectPokemonTest" />
+      <option name="METHOD_NAME" value="itShouldPrintPageTitle" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="TEST_SEARCH_SCOPE">
@@ -301,11 +283,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.NavBarTest.itShouldCheckEachPageTitle" />
+        <item itemvalue="JUnit.SelectPokemonTest.itShouldCheckEachPageTitle" />
+        <item itemvalue="JUnit.SelectPokemonTest.itShouldCheckPageTitle" />
+        <item itemvalue="JUnit.SelectPokemonTest.itShouldPrintPageTitle" />
         <item itemvalue="JUnit.RefreshTest.itShouldRefreshPage" />
-        <item itemvalue="JUnit.NavBarTest.itShouldTestBackAndForward" />
-        <item itemvalue="JUnit.ColorCheckTest.itShouldValidateExpectedColorOfElement" />
-        <item itemvalue="JUnit.ColorCheckTest.itShouldPrintFontSizeOfElement" />
-        <item itemvalue="JUnit.ColorCheckTest.itShouldPrintColorOfEachElements" />
       </list>
     </recent_temporary>
   </component>
@@ -322,44 +304,44 @@
       <workItem from="1587813508914" duration="10714000" />
       <workItem from="1588881007513" duration="9720000" />
       <workItem from="1589478803719" duration="802000" />
-      <workItem from="1589480182894" duration="13834000" />
+      <workItem from="1589480182894" duration="15532000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ColorCheckTest_itShouldPrintFontSizeOfElement - 2020.05.15 at 17h 32m 20s.xml">
-      <configuration name="ColorCheckTest.itShouldPrintFontSizeOfElement" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ColorCheckTest_itShouldValidateExpectedColorOfElement - 2020.05.15 at 17h 33m 09s.xml">
-      <configuration name="ColorCheckTest.itShouldValidateExpectedColorOfElement" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NavBarTest_itShouldTestBackAndForward - 2020.05.15 at 17h 41m 05s.xml">
-      <configuration name="NavBarTest.itShouldTestBackAndForward" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NavBarTest_itShouldTestBackAndForward - 2020.05.15 at 17h 42m 18s.xml">
-      <configuration name="NavBarTest.itShouldTestBackAndForward" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NavBarTest_itShouldTestBackAndForward - 2020.05.15 at 20h 03m 33s.xml">
-      <configuration name="NavBarTest.itShouldTestBackAndForward" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NavBarTest_itShouldTestBackAndForward - 2020.05.15 at 20h 07m 05s.xml">
-      <configuration name="NavBarTest.itShouldTestBackAndForward" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NavBarTest_itShouldTestBackAndForward - 2020.05.15 at 20h 18m 17s.xml">
-      <configuration name="NavBarTest.itShouldTestBackAndForward" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RefreshTest_itShouldRefreshPage - 2020.05.15 at 20h 26m 34s.xml">
-      <configuration name="RefreshTest.itShouldRefreshPage" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RefreshTest_itShouldRefreshPage - 2020.05.15 at 20h 28m 28s.xml">
-      <configuration name="RefreshTest.itShouldRefreshPage" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="RefreshTest_itShouldRefreshPage - 2020.05.15 at 20h 29m 54s.xml">
       <configuration name="RefreshTest.itShouldRefreshPage" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="RefreshTest_itShouldRefreshPage - 2020.05.15 at 20h 30m 34s.xml">
+      <configuration name="RefreshTest.itShouldRefreshPage" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SelectPokemonTest_itShouldPrintPageTitle - 2020.05.15 at 20h 33m 37s.xml">
+      <configuration name="SelectPokemonTest.itShouldPrintPageTitle" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SelectPokemonTest_itShouldCheckPageTitle - 2020.05.16 at 14h 43m 36s.xml">
+      <configuration name="SelectPokemonTest.itShouldCheckPageTitle" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SelectPokemonTest_itShouldCheckEachPageTitle - 2020.05.16 at 14h 46m 20s.xml">
+      <configuration name="SelectPokemonTest.itShouldCheckEachPageTitle" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SelectPokemonTest_itShouldCheckEachPageTitle - 2020.05.16 at 14h 47m 02s.xml">
+      <configuration name="SelectPokemonTest.itShouldCheckEachPageTitle" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NavBarTest_itShouldCheckEachPageTitle - 2020.05.16 at 14h 49m 30s.xml">
+      <configuration name="NavBarTest.itShouldCheckEachPageTitle" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NavBarTest_itShouldCheckEachPageTitle - 2020.05.16 at 14h 50m 57s.xml">
+      <configuration name="NavBarTest.itShouldCheckEachPageTitle" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NavBarTest_itShouldCheckEachPageTitle - 2020.05.16 at 14h 51m 28s.xml">
+      <configuration name="NavBarTest.itShouldCheckEachPageTitle" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NavBarTest_itShouldCheckEachPageTitle - 2020.05.16 at 14h 52m 08s.xml">
+      <configuration name="NavBarTest.itShouldCheckEachPageTitle" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37461000" />
+    <option name="totallyTimeSpent" value="39159000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="822" extended-state="6" />
@@ -505,13 +487,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/SelectPokemonTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="42" column="33" selection-start-line="42" selection-start-column="33" selection-end-line="42" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ClickMeBabyWebTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="426">
@@ -554,17 +529,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/RefreshTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="37" column="8" lean-forward="true" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ColorCheckTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="67" column="90" selection-start-line="67" selection-start-column="90" selection-end-line="67" selection-end-column="90" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/NavBarTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="74" selection-start-line="73" selection-end-line="74" />
         </state>
       </provider>
     </entry>
@@ -575,10 +550,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/RefreshTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/SelectPokemonTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="42" column="8" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
+        <state relative-caret-position="300">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/NavBarTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="91" column="80" selection-start-line="91" selection-start-column="80" selection-end-line="91" selection-end-column="80" />
         </state>
       </provider>
     </entry>

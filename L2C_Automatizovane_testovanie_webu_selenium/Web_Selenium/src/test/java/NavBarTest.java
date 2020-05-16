@@ -32,7 +32,7 @@ public class NavBarTest {
     //TODO: over ci je vyznacena podstranka na navigacii ta, na ktorej sa prave nachadzas
 
     public void itShouldMarkTheCurrecntPageInNavigation() {
-        driver.get(BASE_URL + ":8888/zjavenie.php");
+        driver.get(BASE_URL + "zjavenie.php");
         Assert.assertTrue(driver.findElement(By.xpath("//li[a/@href='zjavenie.php']")).getAttribute("class").contains("active"));
 
     }
@@ -68,11 +68,21 @@ public class NavBarTest {
         driver.navigate().back();
         new WebDriverWait(driver, 10).until(ExpectedConditions.presenceOfElementLocated(By.name("email")));
         System.out.println(driver.findElement(By.name("email")).getAttribute("Value"));
-        Assert.assertEquals(email,driver.findElement(By.name("email")).getAttribute("Value"));
+        Assert.assertEquals(email, driver.findElement(By.name("email")).getAttribute("Value"));
         //tetsing forward step
         driver.navigate().forward();
         new WebDriverWait(driver, 10).until(ExpectedConditions.presenceOfElementLocated(By.xpath("//img[@src='img/conchita.jpg']")));
-        Assert.assertEquals(email,driver.findElement(By.xpath("//img[@src='img/conchita.jpg']")).isDisplayed());
+        Assert.assertEquals(email, driver.findElement(By.xpath("//img[@src='img/conchita.jpg']")).isDisplayed());
     }
+
+    @Test
+    //TODO: prejst v navigacii vsetkymi podstrankami a overit ich title
+    public void itShouldPrintPageTitle() {
+        driver.get(BASE_URL + "zjavenie.php");
+        System.out.println(driver.getTitle());
+
+    }
+
+   
 
 }
