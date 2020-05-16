@@ -95,6 +95,11 @@ public class NavBarTest {
         for (WebElement page : pages) {
             pageURLs.add(page.getAttribute("href"));
         }
+        //chcem si otvorit kazdu url a nechat si vypisat title danej podstranky
+        for (String pageURL : pageURLs) {
+            driver.get(pageURL);
+            System.out.println(driver.getTitle());
+        }
 
     }
 
