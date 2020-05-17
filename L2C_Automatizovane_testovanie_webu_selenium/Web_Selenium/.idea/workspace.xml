@@ -27,8 +27,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/DragAndDropElementTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="37" column="62" lean-forward="true" selection-start-line="37" selection-start-column="62" selection-end-line="37" selection-end-column="62" />
+            <state relative-caret-position="485">
+              <caret line="39" column="36" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -136,7 +136,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1589745075653" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1589745121252" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -312,20 +312,11 @@
       <workItem from="1587813508914" duration="10714000" />
       <workItem from="1588881007513" duration="9720000" />
       <workItem from="1589478803719" duration="802000" />
-      <workItem from="1589480182894" duration="23727000" />
+      <workItem from="1589480182894" duration="24149000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HoverStateTest_test - 2020.05.17 at 21h 20m 43s.xml">
-      <configuration name="HoverStateTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HoverStateTest_test - 2020.05.17 at 21h 25m 13s.xml">
-      <configuration name="HoverStateTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HoverStateTest_test - 2020.05.17 at 21h 31m 14s.xml">
-      <configuration name="HoverStateTest.test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="HoverStateTest_test - 2020.05.17 at 21h 31m 44s.xml">
       <configuration name="HoverStateTest.test" configurationId="JUnit" />
     </history-entry>
@@ -347,9 +338,18 @@
     <history-entry file="DragAndDropElementTest_test - 2020.05.17 at 21h 45m 37s.xml">
       <configuration name="DragAndDropElementTest.test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="DragAndDropElementTest_test - 2020.05.17 at 21h 48m 13s.xml">
+      <configuration name="DragAndDropElementTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DragAndDropElementTest_test - 2020.05.17 at 21h 48m 58s.xml">
+      <configuration name="DragAndDropElementTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DragAndDropElementTest_test - 2020.05.17 at 21h 50m 53s.xml">
+      <configuration name="DragAndDropElementTest.test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47354000" />
+    <option name="totallyTimeSpent" value="47776000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="42" y="23" width="1440" height="822" extended-state="0" />
@@ -443,7 +443,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/DragAndDropElementTest.java</url>
-          <line>28</line>
+          <line>29</line>
           <properties />
           <option name="timeStamp" value="19" />
         </line-breakpoint>
@@ -615,8 +615,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/DragAndDropElementTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="37" column="62" lean-forward="true" selection-start-line="37" selection-start-column="62" selection-end-line="37" selection-end-column="62" />
+        <state relative-caret-position="485">
+          <caret line="39" column="36" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
         </state>
       </provider>
     </entry>
