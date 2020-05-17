@@ -1,6 +1,7 @@
 import org.junit.*;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.*;
+import org.openqa.selenium.interactions.*;
 
 public class HoverStateTest {
 
@@ -21,6 +22,21 @@ public class HoverStateTest {
         driver.quit();
 
     }
+    @Test
 
+    public void test() {
+        //1.vytiahnem si element
+        WebElement trafficLights = driver.findElement(By.className("light"));
+        //2. vychodzia farba
+        String redColor = (trafficLights.getCssValue("background-color"));
+        String expectedGreen = "rgba(10, 129, 0, 1)";
+        //3. akcia - prechod mysov, hover stav
+        Actions actions = new Actions(driver);
+        actions.moveToElement(trafficLights).build().perform();
+        //4. vytiahnem si aktualnu farbu
+        String actualGreenColor = (trafficLights.getCssValue("background-color"));
+        //5. porovnam ocakavnu a aktualnu farbu
+        Assert.assertEquals(expectedGreen,actualGreenColor);
+    }
    
 }
