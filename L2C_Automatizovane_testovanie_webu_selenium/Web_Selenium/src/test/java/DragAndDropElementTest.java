@@ -32,6 +32,10 @@ public class DragAndDropElementTest {
         Actions actions = new Actions(driver);
         actions.dragAndDrop(donald, tree).build().perform();
 
-     
+        String expectedMessage = "HOOO HOOOOO !!!!";
+        WebElement message = driver.findElement(By.xpath("//div[contains(@class,'success')]/h2"));
+
+        Assert.assertTrue(message.isDisplayed());
+        Assert.assertEquals(expectedMessage, message.getText());
     }
 }
