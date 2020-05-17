@@ -43,7 +43,7 @@ public class HoverStateTest {
         String actualGreenColor = (trafficLights.getCssValue("background-color"));
         Assert.assertEquals(expectedGreen,actualGreenColor);
 
-        //5. akcia - podrzanie mysi,  pri action musi byt vzdy build a perform
+        //5. akcia - active state - podrzanie mysi,  pri action musi byt vzdy build a perform
         actions.clickAndHold(trafficLights).build().perform();
         String actualOrangeColor = (trafficLights.getCssValue("background-color"));
         Assert.assertEquals(expectedOrange,actualOrangeColor);
