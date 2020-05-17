@@ -41,4 +41,16 @@ public class DragAndDropElementTest {
         Assert.assertTrue(message.isDisplayed());
         Assert.assertEquals(expectedMessage, message.getText());
     }
+
+    @Test
+    public void movingTest() throws InterruptedException {
+
+        WebElement donald = driver.findElement(By.id("donald"));
+        Actions actions = new Actions(driver);
+
+        for(int i = 0; i<100; i++){
+            actions.clickAndHold(donald).moveByOffset(100, 0).release().build().perform();
+            Thread.sleep(500);
+        }
+    }
 }
