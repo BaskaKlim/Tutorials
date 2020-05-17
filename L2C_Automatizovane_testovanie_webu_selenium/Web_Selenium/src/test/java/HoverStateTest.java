@@ -25,11 +25,15 @@ public class HoverStateTest {
     @Test
 
     public void test() {
+        //0.expected values - these we are testing
+        String expectedGreen = "rgba(10, 129, 0, 1)";
+        String expectedRed = "rgba(205, 58, 63, 1)";
+
         //1.vytiahnem si element
         WebElement trafficLights = driver.findElement(By.className("light"));
-        //2. vychodzia farba
-        String redColor = (trafficLights.getCssValue("background-color"));
-        String expectedGreen = "rgba(10, 129, 0, 1)";
+        //2. vychodzia farba  a overim ocakavanu farbu s realnou
+        String actualRedColor = (trafficLights.getCssValue("background-color"));
+        Assert.assertEquals(expectedRed,actualRedColor);
         //3. akcia - prechod mysov, hover stav
         Actions actions = new Actions(driver);
         actions.moveToElement(trafficLights).build().perform();
