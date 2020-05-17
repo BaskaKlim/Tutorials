@@ -2,8 +2,6 @@ import org.junit.*;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.*;
 
-import static org.junit.Assert.*;
-
 public class DimensionTest {
 
     private WebDriver driver;

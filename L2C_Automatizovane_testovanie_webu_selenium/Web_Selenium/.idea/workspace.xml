@@ -54,8 +54,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/HoverStateTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="48" column="60" selection-start-line="48" selection-start-column="60" selection-end-line="48" selection-end-column="60" />
+            <state relative-caret-position="408">
+              <caret line="45" column="36" selection-start-line="45" selection-start-column="36" selection-end-line="45" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -162,7 +162,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1589744099783" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1589744364119" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -338,17 +338,11 @@
       <workItem from="1587813508914" duration="10714000" />
       <workItem from="1588881007513" duration="9720000" />
       <workItem from="1589478803719" duration="802000" />
-      <workItem from="1589480182894" duration="22865000" />
+      <workItem from="1589480182894" duration="23156000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="NavBarTest_itShouldCheckEachPageTitle - 2020.05.16 at 15h 00m 51s.xml">
-      <configuration name="NavBarTest.itShouldCheckEachPageTitle" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NavBarTest_itShouldCheckEachPageTitle - 2020.05.16 at 15h 44m 45s.xml">
-      <configuration name="NavBarTest.itShouldCheckEachPageTitle" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="NavBarTest_itShouldCheckEachPageTitle - 2020.05.16 at 15h 47m 39s.xml">
       <configuration name="NavBarTest.itShouldCheckEachPageTitle" configurationId="JUnit" />
     </history-entry>
@@ -373,9 +367,15 @@
     <history-entry file="HoverStateTest_test - 2020.05.17 at 21h 31m 44s.xml">
       <configuration name="HoverStateTest.test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="HoverStateTest_test - 2020.05.17 at 21h 33m 18s.xml">
+      <configuration name="HoverStateTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HoverStateTest_test - 2020.05.17 at 21h 34m 20s.xml">
+      <configuration name="HoverStateTest.test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46492000" />
+    <option name="totallyTimeSpent" value="46783000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="42" y="23" width="1440" height="822" extended-state="0" />
@@ -460,6 +460,12 @@
           <line>73</line>
           <properties />
           <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/HoverStateTest.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/AlertTest.java</url>
@@ -622,8 +628,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/HoverStateTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="48" column="60" selection-start-line="48" selection-start-column="60" selection-end-line="48" selection-end-column="60" />
+        <state relative-caret-position="408">
+          <caret line="45" column="36" selection-start-line="45" selection-start-column="36" selection-end-line="45" selection-end-column="36" />
         </state>
       </provider>
     </entry>
