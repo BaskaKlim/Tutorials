@@ -24,7 +24,7 @@ public class AfterTest {
         File screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 
         // ulozenie si screenshotu
-        FileUtils.copyFile(screenshot, new File("Users/barbaraklimekova/Tutorials/L2C_Automatizovane_testovanie_webu_selenium/screens/screen.png"));
+       // FileUtils.copyFile(screenshot, new File("Users/barbaraklimekova/Tutorials/L2C_Automatizovane_testovanie_webu_selenium/screens/screen.png"));
 
         // dat si vypisat do kontentu page source code
         System.out.println(driver.getPageSource());
