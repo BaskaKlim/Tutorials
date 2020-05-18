@@ -5,7 +5,7 @@ import org.openqa.selenium.support.ui.*;
 public class WaitingForElementTest extends MainTest {
 
     @Before
-    public void setUp() {
+    public void openBaseUrl() {
 
         driver.get(getBASE_URL() + "zjavenie.php");
     }

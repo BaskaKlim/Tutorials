@@ -4,7 +4,7 @@ import org.openqa.selenium.*;
 public class XPathTests extends MainTest {
 
     @Before
-    public void setUp() {
+    public void openBaseUrl() {
         driver.get(getBASE_URL() + "tabulka.php");
     }
 

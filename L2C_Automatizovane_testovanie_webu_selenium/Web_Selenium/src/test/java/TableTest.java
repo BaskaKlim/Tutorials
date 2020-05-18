@@ -7,7 +7,7 @@ public class TableTest extends MainTest {
     private StringBuffer verificationErrors = new StringBuffer();
 
     @Before
-    public void setUp() {
+    public void openBaseUrl() {
         driver.get(getBASE_URL() + "tabulka.php");
     }
 

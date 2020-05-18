@@ -6,7 +6,7 @@ import org.openqa.selenium.*;
 public class RegistrationTest extends MainTest{
 
     @Before
-    public void setUp() {
+    public void openBaseUrl() {
         driver.get(getBASE_URL() + "registracia.php");
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
     }

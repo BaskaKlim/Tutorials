@@ -6,7 +6,7 @@ import org.openqa.selenium.support.ui.*;
 public class SelectPokemonTest extends MainTest {
 
     @Before
-    public void setUp() {
+    public void openBaseUrl() {
         driver.get(getBASE_URL() + "vybersi.php");
     }
 
