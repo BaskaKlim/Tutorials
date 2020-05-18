@@ -36,15 +36,9 @@ public class CalculatorTest {
 
     @Test
     public void testDeduct() {
-        //actions
-        driver.findElement(By.id("firstInput")).clear();
-        driver.findElement(By.id("firstInput")).sendKeys("6");
-        driver.findElement(By.id("secondInput")).clear();
-        driver.findElement(By.id("secondInput")).sendKeys("2");
-        driver.findElement(By.id("deduct")).click();
-        // validation
-        Assert.assertTrue(driver.findElement(By.id("result")).isDisplayed());
-        Assert.assertEquals("4", driver.findElement(By.id("result")).getText());
+        checkDeduct("6", "2", "4");
+        checkDeduct("23", "17", "6");
+        checkDeduct("-1", "2", "-3");
 
     }
 
@@ -98,5 +92,18 @@ public class CalculatorTest {
         Assert.assertTrue(driver.findElement(By.id("result")).isDisplayed());
         Assert.assertEquals(expectedResult, driver.findElement(By.id("result")).getText());
     }
+
+    private void checkDeduct(String firstInput, String secondInput,  String expectedResult) {
+        //actions
+        driver.findElement(By.id("firstInput")).clear();
+        driver.findElement(By.id("firstInput")).sendKeys(firstInput);
+        driver.findElement(By.id("secondInput")).clear();
+        driver.findElement(By.id("secondInput")).sendKeys(secondInput);
+        driver.findElement(By.id("deduct")).click();
+        // validation
+        Assert.assertTrue(driver.findElement(By.id("result")).isDisplayed());
+        Assert.assertEquals(expectedResult, driver.findElement(By.id("result")).getText());
+    }
+
 
 }
