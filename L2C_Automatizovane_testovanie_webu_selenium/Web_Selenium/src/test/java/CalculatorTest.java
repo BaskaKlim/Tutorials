@@ -39,28 +39,7 @@ public class CalculatorTest {
         checkDeduct("-1", "2", "-3");
 
     }
-
-    @Test
-    public void testMultiply() {
-        //actions
-        enterImputs("6", "2");
-        driver.findElement(By.id("count")).click();
-        // validation
-        Assert.assertTrue(driver.findElement(By.id("result")).isDisplayed());
-        Assert.assertEquals("12", driver.findElement(By.id("result")).getText());
-
-    }
-
-    @Test
-    public void testDivide() {
-        //actions
-        enterImputs("6", "2");
-        driver.findElement(By.id("count")).click();
-        // validation
-        Assert.assertTrue(driver.findElement(By.id("result")).isDisplayed());
-        Assert.assertEquals("3", driver.findElement(By.id("result")).getText());
-
-    }
+    
 
     @Test
     public void testInvalidInputs() {
