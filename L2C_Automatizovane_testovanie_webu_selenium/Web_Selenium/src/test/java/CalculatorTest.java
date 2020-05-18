@@ -67,10 +67,19 @@ public class CalculatorTest {
 
     @Test
     public void testInvalidInputs() {
-        driver.findElement(By.id("firstInput")).clear();
-        driver.findElement(By.id("firstInput"));
-        driver.findElement(By.id("secondInput")).clear();
-        driver.findElement(By.id("secondInput"));
+
+    }
+
+    @Test
+    public void testReset() {
+        enterImputs("6", "2");
+        driver.findElement(By.id("count")).click();
+        driver.findElement(By.id("reset")).click();
+        //chcem overit ci su prve dva inputy prazne a  ze sa v casti vysledku nezobrazi text
+        //input maju atribute value, result je len text cize tam pouzijem getText nie getAttribute
+        Assert.assertTrue(driver.findElement(By.id("firstInput")).getAttribute("value").isEmpty());
+        Assert.assertTrue(driver.findElement(By.id("secondInput")).getAttribute("value").isEmpty());
+        Assert.assertTrue(driver.findElement(By.id("result")).getText().isEmpty());
 
     }
 
