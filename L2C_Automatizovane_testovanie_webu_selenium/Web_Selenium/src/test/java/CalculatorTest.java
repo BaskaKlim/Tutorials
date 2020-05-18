@@ -54,10 +54,7 @@ public class CalculatorTest {
     @Test
     public void testDivide() {
         //actions
-        driver.findElement(By.id("firstInput")).clear();
-        driver.findElement(By.id("firstInput")).sendKeys("6");
-        driver.findElement(By.id("secondInput")).clear();
-        driver.findElement(By.id("secondInput")).sendKeys("2");
+        enterImputs("6", "2");
         driver.findElement(By.id("count")).click();
         // validation
         Assert.assertTrue(driver.findElement(By.id("result")).isDisplayed());
@@ -67,7 +64,15 @@ public class CalculatorTest {
 
     @Test
     public void testInvalidInputs() {
+        //vlozim string pismena nie cisla
+        enterImputs("blud1", "blud2");
+        driver.findElement(By.id("count")).click();
+        WebElement bordersOfFirstInput = driver.findElement(By.xpath("//div[input[@id='firstInput']]"));
+        WebElement bordersOfSecondInput = driver.findElement(By.xpath("//div[input[@id='secondInput']]"));
 
+         // chcem zistit ci tento element ak vlozim bludne inputy obsahuje triedu has-error
+        Assert.assertTrue(bordersOfFirstInput.getAttribute("class").contains("has-error"));
+        Assert.assertTrue(bordersOfSecondInput.getAttribute("class").contains("has-error"));
     }
 
     @Test
