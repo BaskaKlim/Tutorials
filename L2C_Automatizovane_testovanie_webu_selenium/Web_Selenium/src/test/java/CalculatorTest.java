@@ -22,10 +22,14 @@ public class CalculatorTest {
         driver.quit();
     }
 
+
+
     @Test
     public void testSum() {
         //actions
+        driver.findElement(By.id("firstInput")).clear();
         driver.findElement(By.id("firstInput")).sendKeys("6");
+        driver.findElement(By.id("secondInput")).click();
         driver.findElement(By.id("secondInput")).sendKeys("2");
         driver.findElement(By.id("count")).click();
         // validation
@@ -38,7 +42,9 @@ public class CalculatorTest {
     @Test
     public void testSub() {
         //actions
+        driver.findElement(By.id("firstInput")).clear();
         driver.findElement(By.id("firstInput")).sendKeys("6");
+        driver.findElement(By.id("secondInput")).click();
         driver.findElement(By.id("secondInput")).sendKeys("2");
         driver.findElement(By.id("count")).click();
         // validation
@@ -50,7 +56,9 @@ public class CalculatorTest {
     @Test
     public void testMultiply() {
         //actions
+        driver.findElement(By.id("firstInput")).clear();
         driver.findElement(By.id("firstInput")).sendKeys("6");
+        driver.findElement(By.id("secondInput")).click();
         driver.findElement(By.id("secondInput")).sendKeys("2");
         driver.findElement(By.id("count")).click();
         // validation
@@ -63,7 +71,9 @@ public class CalculatorTest {
     @Test
     public void testDivide() {
         //actions
+        driver.findElement(By.id("firstInput")).clear();
         driver.findElement(By.id("firstInput")).sendKeys("6");
+        driver.findElement(By.id("secondInput")).click();
         driver.findElement(By.id("secondInput")).sendKeys("2");
         driver.findElement(By.id("count")).click();
         // validation
@@ -75,7 +85,9 @@ public class CalculatorTest {
 
     @Test
     public void testInvalidInputs() {
+        driver.findElement(By.id("firstInput")).clear();
         driver.findElement(By.id("firstInput"));
+        driver.findElement(By.id("secondInput")).click();
         driver.findElement(By.id("secondInput"));
 
     }
