@@ -10,6 +10,7 @@ public class CalculatorTest {
     @Before
 
     public void setUp() {
+        System.setProperty("webdriver.chrome.driver", "src/test/resources/drivers/chromedriver");
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get(BASE_URL);
@@ -26,27 +27,21 @@ public class CalculatorTest {
 
     @Test
     public void testSum() {
-        //actions
-        driver.findElement(By.id("firstInput")).clear();
-        driver.findElement(By.id("firstInput")).sendKeys("6");
-        driver.findElement(By.id("secondInput")).click();
-        driver.findElement(By.id("secondInput")).sendKeys("2");
-        driver.findElement(By.id("count")).click();
-        // validation
-        Assert.assertTrue(driver.findElement(By.id("result")).isDisplayed());
-        Assert.assertEquals("8", driver.findElement(By.id("result")).getText());
-
-
+        checkSum("6", "2", "8");
+        checkSum("8", "7", "15");
+        checkSum("10", "2", "12");
+        checkSum("23", "27", "50");
+        checkSum("511", "13", "524");
     }
 
     @Test
-    public void testSub() {
+    public void testDeduct() {
         //actions
         driver.findElement(By.id("firstInput")).clear();
         driver.findElement(By.id("firstInput")).sendKeys("6");
-        driver.findElement(By.id("secondInput")).click();
+        driver.findElement(By.id("secondInput")).clear();
         driver.findElement(By.id("secondInput")).sendKeys("2");
-        driver.findElement(By.id("count")).click();
+        driver.findElement(By.id("deduct")).click();
         // validation
         Assert.assertTrue(driver.findElement(By.id("result")).isDisplayed());
         Assert.assertEquals("4", driver.findElement(By.id("result")).getText());
@@ -58,7 +53,7 @@ public class CalculatorTest {
         //actions
         driver.findElement(By.id("firstInput")).clear();
         driver.findElement(By.id("firstInput")).sendKeys("6");
-        driver.findElement(By.id("secondInput")).click();
+        driver.findElement(By.id("secondInput")).clear();
         driver.findElement(By.id("secondInput")).sendKeys("2");
         driver.findElement(By.id("count")).click();
         // validation
@@ -73,7 +68,7 @@ public class CalculatorTest {
         //actions
         driver.findElement(By.id("firstInput")).clear();
         driver.findElement(By.id("firstInput")).sendKeys("6");
-        driver.findElement(By.id("secondInput")).click();
+        driver.findElement(By.id("secondInput")).clear();
         driver.findElement(By.id("secondInput")).sendKeys("2");
         driver.findElement(By.id("count")).click();
         // validation
@@ -87,9 +82,21 @@ public class CalculatorTest {
     public void testInvalidInputs() {
         driver.findElement(By.id("firstInput")).clear();
         driver.findElement(By.id("firstInput"));
-        driver.findElement(By.id("secondInput")).click();
+        driver.findElement(By.id("secondInput")).clear();
         driver.findElement(By.id("secondInput"));
 
+    }
+
+    public void checkSum(String firstInput, String secondInput, String expectedResult){
+        //actions
+        driver.findElement(By.id("firstInput")).clear();
+        driver.findElement(By.id("firstInput")).sendKeys(firstInput);
+        driver.findElement(By.id("secondInput")).clear();
+        driver.findElement(By.id("secondInput")).sendKeys(secondInput);
+        driver.findElement(By.id("count")).click();
+        // validation
+        Assert.assertTrue(driver.findElement(By.id("result")).isDisplayed());
+        Assert.assertEquals(expectedResult, driver.findElement(By.id("result")).getText());
     }
 
 }
