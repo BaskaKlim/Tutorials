@@ -13,11 +13,37 @@ public class CalculatorTest {
         driver.manage().window().maximize();
         driver.get(BASE_URL);
     }
+
+
     @After
 
     public void tearDown(){
         driver.close();
         driver.quit();
+    }
+
+    @Test
+    public void testSum(){
+
+    }
+
+    @Test
+    public void testSub(){
+
+    }
+    @Test
+    public void testMultiply(){
+
+    }
+
+    @Test
+    public void testDivide(){
+
+    }
+
+    @Test
+    public void testInvalidInputs(){
+
     }
     
 
