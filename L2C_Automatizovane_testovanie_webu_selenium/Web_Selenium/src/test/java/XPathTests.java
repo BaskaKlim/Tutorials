@@ -5,7 +5,7 @@ public class XPathTests extends MainTest {
 
     @Before
     public void setUp() {
-        driver.get(BASE_URL + "tabulka.php");
+        driver.get(getBASE_URL() + "tabulka.php");
     }
 
     @Test
@@ -16,7 +16,7 @@ public class XPathTests extends MainTest {
 
     @Test
     public void clickMeXpths() {
-        driver.get(BASE_URL + "clickmebaby.php");
+        driver.get(getBASE_URL() + "clickmebaby.php");
         //relative xpath id selector
         driver.findElement(By.xpath("//*[@id=\"clickMe\"]"));
         //relative xpath text selector

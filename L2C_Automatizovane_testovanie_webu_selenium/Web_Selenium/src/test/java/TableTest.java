@@ -8,7 +8,7 @@ public class TableTest extends MainTest {
 
     @Before
     public void setUp() {
-        driver.get(BASE_URL + "tabulka.php");
+        driver.get(getBASE_URL() + "tabulka.php");
     }
 
     @Test

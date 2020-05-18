@@ -7,7 +7,7 @@ public class NemenneTest extends MainTest{
     @Before
     public void setUp()  {
 
-        driver.get(BASE_URL + ":8888/nemenne.php");
+        driver.get(getBASE_URL() + ":8888/nemenne.php");
     }
 
     @Test

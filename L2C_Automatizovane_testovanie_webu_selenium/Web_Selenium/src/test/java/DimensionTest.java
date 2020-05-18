@@ -6,7 +6,7 @@ public class DimensionTest extends MainTest {
 
     @Before
     public void openBaseUrl() {
-        driver.get(BASE_URL + "clickmebaby.php");
+        driver.get(getBASE_URL() + "clickmebaby.php");
     }
 
     @Test

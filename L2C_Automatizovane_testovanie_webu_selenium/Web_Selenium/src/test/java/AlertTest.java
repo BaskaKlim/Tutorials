@@ -5,7 +5,7 @@ public class AlertTest extends MainTest {
 
     @Before
     public void openBaseUrl() {
-        driver.get(BASE_URL + "/redalert.php");
+        driver.get(getBASE_URL() + "/redalert.php");
     }
 
     @Test

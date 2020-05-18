@@ -5,7 +5,7 @@ public class CalculatorTest extends MainTest {
 
     @Before
     public void openBaseUrl() {
-        driver.get(BASE_URL + "/kalkulacka.php");
+        driver.get(getBASE_URL()+ "/kalkulacka.php");
     }
 
 

@@ -6,7 +6,7 @@ public class DragAndDropElementTest extends MainTest {
 
     @Before
     public void openBaseUrl() {
-        driver.get(BASE_URL + "/moveme.php");
+        driver.get(getBASE_URL() + "/moveme.php");
     }
 
     @Test

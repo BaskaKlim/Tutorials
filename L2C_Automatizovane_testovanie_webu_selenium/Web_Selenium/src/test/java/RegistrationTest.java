@@ -7,7 +7,7 @@ public class RegistrationTest extends MainTest{
 
     @Before
     public void setUp() {
-        driver.get(BASE_URL + "registracia.php");
+        driver.get(getBASE_URL() + "registracia.php");
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
     }
 

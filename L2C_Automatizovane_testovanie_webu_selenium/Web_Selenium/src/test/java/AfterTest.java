@@ -7,7 +7,7 @@ public class AfterTest extends MainTest {
 
     @Before
     public void openBaseUrl()  {
-        driver.get(BASE_URL + "vybersi.php");
+        driver.get(getBASE_URL() + "vybersi.php");
     }
 
     @After

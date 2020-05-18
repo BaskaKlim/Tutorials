@@ -6,7 +6,7 @@ public class RadioButtonTest extends MainTest {
     @Before
     public void setUp() {
 
-        driver.get(BASE_URL + ":8888/zenaalebomuz.php");
+        driver.get(getBASE_URL() + ":8888/zenaalebomuz.php");
     }
 
     @Test

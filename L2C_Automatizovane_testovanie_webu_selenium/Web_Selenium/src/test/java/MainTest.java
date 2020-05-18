@@ -8,8 +8,13 @@ import static org.junit.Assert.*;
 public class MainTest {
 
     public WebDriver driver;
-    final String BASE_URL = "http://localhost";
+    private  final String BASE_URL = "http://localhost";
     public StringBuffer verificationErrors = new StringBuffer();
+
+
+    public String getBASE_URL() {
+        return BASE_URL;
+    }
 
     @Before
 

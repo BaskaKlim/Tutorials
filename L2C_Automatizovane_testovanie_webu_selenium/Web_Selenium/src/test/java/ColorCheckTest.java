@@ -7,7 +7,7 @@ public class ColorCheckTest extends MainTest {
 
     @Before
     public void openBaseUrl() {
-        driver.get(BASE_URL + "stroopeffect.php");
+        driver.get(getBASE_URL() + "stroopeffect.php");
     }
 
 

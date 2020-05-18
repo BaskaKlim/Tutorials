@@ -7,7 +7,7 @@ public class SelectPokemonTest extends MainTest {
 
     @Before
     public void setUp() {
-        driver.get(BASE_URL + "vybersi.php");
+        driver.get(getBASE_URL() + "vybersi.php");
     }
 
     @Test

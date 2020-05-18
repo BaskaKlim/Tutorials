@@ -6,7 +6,7 @@ public class RefreshTest extends MainTest {
 
     @Before
     public void setUp() {
-        driver.get(BASE_URL + "clickmebaby.php");
+        driver.get(getBASE_URL() + "clickmebaby.php");
     }
 
     @Test

@@ -7,7 +7,7 @@ public class WaitingForElementTest extends MainTest {
     @Before
     public void setUp() {
 
-        driver.get(BASE_URL + "zjavenie.php");
+        driver.get(getBASE_URL() + "zjavenie.php");
     }
 
 

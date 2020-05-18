@@ -9,7 +9,7 @@ public class NavBarTest extends MainTest {
     //TODO: over ci je vyznacena podstranka na navigacii ta, na ktorej sa prave nachadzas
 
     public void itShouldMarkTheCurrecntPageInNavigation() {
-        driver.get(BASE_URL + "zjavenie.php");
+        driver.get(getBASE_URL() + "zjavenie.php");
         Assert.assertTrue(driver.findElement(By.xpath("//li[a/@href='zjavenie.php']")).getAttribute("class").contains("active"));
 
     }

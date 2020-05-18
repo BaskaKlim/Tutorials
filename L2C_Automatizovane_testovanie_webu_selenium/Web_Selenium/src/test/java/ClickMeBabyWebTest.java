@@ -7,7 +7,7 @@ public class ClickMeBabyWebTest  extends MainTest{
 
     @Before
     public void openBaseUrl() {
-        driver.get(BASE_URL);
+        driver.get(getBASE_URL());
     }
 
 

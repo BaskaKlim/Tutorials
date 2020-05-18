@@ -7,7 +7,7 @@ public class HoverStateTest extends MainTest {
     @Before
     public void openBaseUrl() {
 
-        driver.get(BASE_URL + "semafor.php");
+        driver.get(getBASE_URL()+ "semafor.php");
     }
 
     @Test
