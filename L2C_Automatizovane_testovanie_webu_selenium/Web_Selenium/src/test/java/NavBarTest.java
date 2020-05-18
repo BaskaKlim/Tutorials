@@ -28,7 +28,7 @@ public class NavBarTest extends MainTest {
         pages.add("kalkulacka.php");
 
         for (String page : pages) {
-            driver.get(BASE_URL + page);
+            driver.get(getBASE_URL() + page);
             Assert.assertTrue(driver.findElement(By.xpath("//li[a/@href='" + page + "']")).getAttribute("class").contains(expectedClass));
         }
     }
@@ -36,7 +36,7 @@ public class NavBarTest extends MainTest {
     @Test
 
     public void itShouldTestBackAndForward() {
-        driver.get(BASE_URL + "registracia.php");
+        driver.get(getBASE_URL() + "registracia.php");
         String email = "barbara@klimek.sk";
 
         driver.findElement(By.name("email")).sendKeys(email);
@@ -55,7 +55,7 @@ public class NavBarTest extends MainTest {
     @Test
     //TODO: prejst v navigacii vsetkymi podstrankami a overit ich title
     public void itShouldPrintPageTitle() {
-        driver.get(BASE_URL + "zjavenie.php");
+        driver.get(getBASE_URL() + "zjavenie.php");
         System.out.println(driver.getTitle());
 
     }
@@ -63,7 +63,7 @@ public class NavBarTest extends MainTest {
     @Test
     //TODO: prejst v navigacii vsetkymi podstrankami a overit ich title
     public void itShouldCheckEachPageTitle() throws InterruptedException {
-        driver.get(BASE_URL);
+        driver.get(getBASE_URL());
         System.out.println(driver.getTitle());
         //najprv si zistim vsetky podsranky
         List<WebElement> pages = driver.findElements(By.xpath("//nav/div/ul/li/a"));
