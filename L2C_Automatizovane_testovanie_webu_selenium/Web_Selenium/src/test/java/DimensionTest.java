@@ -1,22 +1,12 @@
 import org.junit.*;
 import org.openqa.selenium.*;
-import org.openqa.selenium.chrome.*;
 
-public class DimensionTest {
+public class DimensionTest extends MainTest {
 
-    private WebDriver driver;
-    final private String BASE_URL = "http://localhost:8888/";
-    private StringBuffer verificationErrors = new StringBuffer();
 
     @Before
-    public void setUp() throws Exception {
-        System.setProperty("webdriver.chrome.driver", "src/test/resources/drivers/chromedriver");
-        driver = new ChromeDriver();
-    }
-
-    @After
-    public void tearDown() throws Exception {
-        driver.quit();
+    public void openBaseUrl() {
+        driver.get(BASE_URL + "clickmebaby.php");
     }
 
     @Test
@@ -24,7 +14,7 @@ public class DimensionTest {
     public void test() {
         //set new pixels size for window
         driver.manage().window().setSize(new Dimension(300, 2500));
-        driver.get(BASE_URL + "clickmebaby.php");
+
         driver.findElement(By.id("clickMe")).click();
         Assert.assertEquals("1", driver.findElement(By.id("clicks")).getText());
     }

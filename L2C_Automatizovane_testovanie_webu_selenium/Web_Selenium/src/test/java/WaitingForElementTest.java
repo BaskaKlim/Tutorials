@@ -1,35 +1,15 @@
-import java.util.concurrent.*;
 import org.junit.*;
 import org.openqa.selenium.*;
-import org.openqa.selenium.chrome.*;
 import org.openqa.selenium.support.ui.*;
 
-import static org.junit.Assert.*;
-
-public class WaitingForElementTest {
-
-    private WebDriver driver;
-    final private String BASE_URL = "http://localhost";
-    private StringBuffer verificationErrors = new StringBuffer();
+public class WaitingForElementTest extends MainTest {
 
     @Before
-    public void setUp() throws Exception {
-        //relative path cize od tohto projektu
-        System.setProperty("webdriver.chrome.driver", "src/test/resources/drivers/chromedriver");
-        driver = new ChromeDriver();
-        driver.get(BASE_URL + ":8888/zjavenie.php");
-        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+    public void setUp() {
 
+        driver.get(BASE_URL + "zjavenie.php");
     }
 
-    @After
-    public void tearDown() throws Exception {
-        driver.quit();
-        String verificationErrorString = verificationErrors.toString();
-        if (!"".equals(verificationErrorString)) {
-            fail(verificationErrorString);
-        }
-    }
 
     @Test
     //TODO: wait for image - using Java method thread.sleep that is fixed
@@ -55,7 +35,7 @@ public class WaitingForElementTest {
     }
 
     @Test
-    public void itShoulValidateThatPictureIsDisplayed(){
+    public void itShoulValidateThatPictureIsDisplayed() {
         driver.findElement(By.id("showHim")).click();
         new WebDriverWait(driver, 5).until(ExpectedConditions.visibilityOfElementLocated(By.xpath(("//img[@class='brano']"))));
         Assert.assertTrue(driver.findElement(By.xpath("//img[@class='brano']")).isDisplayed());

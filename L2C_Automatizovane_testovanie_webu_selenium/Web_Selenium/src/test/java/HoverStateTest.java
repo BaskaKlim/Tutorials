@@ -1,27 +1,15 @@
 import org.junit.*;
 import org.openqa.selenium.*;
-import org.openqa.selenium.chrome.*;
 import org.openqa.selenium.interactions.*;
 
-public class HoverStateTest {
-
-    private WebDriver driver;
-    final private String BASE_URL = "http://localhost:8888/";
+public class HoverStateTest extends MainTest {
 
     @Before
-    public void setUp() throws Exception {
-        System.setProperty("webdriver.chrome.driver", "src/test/resources/drivers/chromedriver");
-        driver = new ChromeDriver();
+    public void openBaseUrl() {
+
         driver.get(BASE_URL + "semafor.php");
     }
 
-    @After
-    public void tearDown() {
-
-        driver.close();
-        driver.quit();
-
-    }
     @Test
 
     public void test() {
@@ -34,19 +22,19 @@ public class HoverStateTest {
         WebElement trafficLights = driver.findElement(By.className("light"));
         //2. vychodzia farba  a overim ocakavanu farbu s realnou
         String actualRedColor = (trafficLights.getCssValue("background-color"));
-        Assert.assertEquals(expectedRed,actualRedColor);
+        Assert.assertEquals(expectedRed, actualRedColor);
 
         //3. akcia - prechod mysov, hover stav
         Actions actions = new Actions(driver);
         actions.moveToElement(trafficLights).build().perform();
         //4. vytiahnem si aktualnu farbu a porovnam ocakavnu a aktualnu farbu
         String actualGreenColor = (trafficLights.getCssValue("background-color"));
-        Assert.assertEquals(expectedGreen,actualGreenColor);
+        Assert.assertEquals(expectedGreen, actualGreenColor);
 
         //5. akcia - active state - podrzanie mysi,  pri action musi byt vzdy build a perform
         actions.clickAndHold(trafficLights).build().perform();
         String actualOrangeColor = (trafficLights.getCssValue("background-color"));
-        Assert.assertEquals(expectedOrange,actualOrangeColor);
+        Assert.assertEquals(expectedOrange, actualOrangeColor);
     }
-   
+
 }

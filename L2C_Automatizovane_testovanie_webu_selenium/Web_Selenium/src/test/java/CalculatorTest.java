@@ -1,27 +1,13 @@
 import org.junit.*;
 import org.openqa.selenium.*;
-import org.openqa.selenium.chrome.*;
 
-public class CalculatorTest {
-
-    private WebDriver driver;
-    private final String BASE_URL = "http://localhost:8888/kalkulacka.php";
+public class CalculatorTest extends MainTest {
 
     @Before
-
-    public void setUp() {
-        System.setProperty("webdriver.chrome.driver", "src/test/resources/drivers/chromedriver");
-        driver = new ChromeDriver();
-        driver.manage().window().maximize();
-        driver.get(BASE_URL);
+    public void openBaseUrl() {
+        driver.get(BASE_URL + "/kalkulacka.php");
     }
 
-    @After
-
-    public void tearDown() {
-        driver.close();
-        driver.quit();
-    }
 
     @Test
     public void testSum() {

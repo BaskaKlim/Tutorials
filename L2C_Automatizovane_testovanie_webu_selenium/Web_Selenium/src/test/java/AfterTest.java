@@ -1,25 +1,17 @@
 import java.io.*;
-
 import org.junit.*;
 import org.openqa.selenium.*;
-import org.openqa.selenium.chrome.*;
 import org.openqa.selenium.support.ui.*;
 
-public class AfterTest {
-    //TODO: nastavenia pre ukoncenie a spadnutie testov
-
-    private WebDriver driver;
-    final private String BASE_URL = "http://localhost:8888/";
-    private StringBuffer verificationErrors = new StringBuffer();
+public class AfterTest extends MainTest {
 
     @Before
-    public void setUp() throws Exception {
-        System.setProperty("webdriver.chrome.driver", "src/test/resources/drivers/chromedriver");
-        driver = new ChromeDriver();
+    public void openBaseUrl()  {
+        driver.get(BASE_URL + "vybersi.php");
     }
 
     @After
-    public void tearDown() throws Exception {
+    public void tearDown() {
         //vytvorenie screenshotu
         File screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 
@@ -35,7 +27,7 @@ public class AfterTest {
     @Test
     //test spadne
     public void itShouldSelectBulbasaur() {
-        driver.get(BASE_URL + "vybersi.php");
+
         new Select(driver.findElement(By.className("form-control"))).selectByVisibleText("Bulbasaur");
         String text = driver.findElement(By.xpath("//div/h3")).getText();
         Assert.assertTrue("Pikacu sa v texte nenachadzza", text.contains("Pikacu"));

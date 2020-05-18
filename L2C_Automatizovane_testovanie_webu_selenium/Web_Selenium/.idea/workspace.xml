@@ -16,37 +16,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/HoverStateTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/WaitingForElementTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" column="98" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="97" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/DragAndDropElementTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="44" column="9" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/RegistrationTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="70">
-              <caret line="40" column="38" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="38" />
+            <state relative-caret-position="-144">
+              <caret line="4" column="51" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="51" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/CalculatorTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/XPathTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="72" column="7" lean-forward="true" selection-start-line="72" selection-start-column="7" selection-end-line="72" selection-end-column="91" />
+            <state relative-caret-position="144">
+              <caret line="8" column="48" lean-forward="true" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/MainTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -65,24 +56,25 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/ClickMeBabyWebTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ClickMeTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ClickMeBabyWebTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/XPathTests.java" />
-        <option value="$PROJECT_DIR$/src/test/java/AlertTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/RadioButtonTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/NemenneTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/TableTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/WaitingForElementTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ColorCheckTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/RefreshTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/SelectPokemonTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/NavBarTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/DimensionTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/AlertTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/AfterTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/HoverStateTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/DragAndDropElementTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/RegistrationTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/CalculatorTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ClickMeBabyWebTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ColorCheckTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DimensionTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DragAndDropElementTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/HoverStateTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/NavBarTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/NemenneTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/RadioButtonTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/RefreshTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/RegistrationTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/SelectPokemonTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TableTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/MainTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/WaitingForElementTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/XPathTests.java" />
       </list>
     </option>
   </component>
@@ -97,8 +89,8 @@
     <option name="runMavenInBackground" value="false" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="36" />
-    <option name="y" value="63" />
+    <option name="x" value="26" />
+    <option name="y" value="40" />
     <option name="width" value="1440" />
     <option name="height" value="822" />
   </component>
@@ -155,7 +147,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1589805551091" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1589810237694" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -190,7 +182,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CalculatorTest">
+  <component name="RunManager" selected="JUnit.TableTest">
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
@@ -259,12 +251,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorTest.testSum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ClickMeBabyWebTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="automation-webtesting-selenium" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CalculatorTest" />
-      <option name="METHOD_NAME" value="testSum" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="ClickMeBabyWebTest" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="moduleWithDependencies" />
@@ -273,10 +264,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClickMeBabyWebTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+    <configuration name="TableTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="automation-webtesting-selenium" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ClickMeBabyWebTest" />
+      <option name="MAIN_CLASS_NAME" value="TableTest" />
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="TEST_SEARCH_SCOPE">
@@ -310,11 +301,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TableTest" />
         <item itemvalue="JUnit.CalculatorTest" />
         <item itemvalue="JUnit.CalculatorTest.testInvalidInputs" />
         <item itemvalue="JUnit.CalculatorTest.testReset" />
         <item itemvalue="JUnit.CalculatorTest.testDeduct" />
-        <item itemvalue="JUnit.CalculatorTest.testSum" />
       </list>
     </recent_temporary>
   </component>
@@ -331,23 +322,11 @@
       <workItem from="1587813508914" duration="10714000" />
       <workItem from="1588881007513" duration="9720000" />
       <workItem from="1589478803719" duration="802000" />
-      <workItem from="1589480182894" duration="29939000" />
+      <workItem from="1589480182894" duration="32564000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RegistrationTest_testInputErrorBorder - 2020.05.18 at 11h 41m 29s.xml">
-      <configuration name="RegistrationTest.testInputErrorBorder" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RegistrationTest_testInputErrorBorder - 2020.05.18 at 11h 42m 00s.xml">
-      <configuration name="RegistrationTest.testInputErrorBorder" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CalculatorTest_testDivide - 2020.05.18 at 12h 08m 00s.xml">
-      <configuration name="CalculatorTest.testDivide" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CalculatorTest_testMultiply - 2020.05.18 at 12h 08m 15s.xml">
-      <configuration name="CalculatorTest.testMultiply" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CalculatorTest_testSum - 2020.05.18 at 12h 08m 35s.xml">
       <configuration name="CalculatorTest.testSum" configurationId="JUnit" />
     </history-entry>
@@ -366,15 +345,27 @@
     <history-entry file="CalculatorTest_testReset - 2020.05.18 at 14h 31m 03s.xml">
       <configuration name="CalculatorTest.testReset" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CalculatorTest_testInvalidInputs - 2020.05.18 at 14h 36m 41s.xml">
+      <configuration name="CalculatorTest.testInvalidInputs" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculatorTest_testInvalidInputs - 2020.05.18 at 14h 38m 09s.xml">
+      <configuration name="CalculatorTest.testInvalidInputs" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculatorTest - 2020.05.18 at 14h 38m 41s.xml">
+      <configuration name="CalculatorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TableTest - 2020.05.18 at 15h 56m 32s.xml">
+      <configuration name="TableTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53566000" />
+    <option name="totallyTimeSpent" value="56191000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="36" y="63" width="1440" height="822" extended-state="0" />
+    <frame x="26" y="40" width="1440" height="822" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19456366" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19456366" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -383,7 +374,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.19863014" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.19863014" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39917696" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -414,7 +405,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32876712" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.19863014" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39917696" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -424,7 +415,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32921812" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32876712" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -444,31 +435,31 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/TableTest.java</url>
-          <line>39</line>
+          <line>28</line>
           <properties />
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/NavBarTest.java</url>
-          <line>73</line>
+          <line>50</line>
           <properties />
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/HoverStateTest.java</url>
-          <line>27</line>
+          <line>15</line>
           <properties />
           <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/DragAndDropElementTest.java</url>
-          <line>29</line>
+          <line>14</line>
           <properties />
           <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/AlertTest.java</url>
-          <line>35</line>
+          <line>12</line>
           <properties class="AlertTest" method="itShouldRunAlert1">
             <option name="EMULATED" value="true" />
           </properties>
@@ -476,7 +467,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/ColorCheckTest.java</url>
-          <line>33</line>
+          <line>15</line>
           <properties class="ColorCheckTest" method="itShouldPrintColorOfElement">
             <option name="EMULATED" value="true" />
           </properties>
@@ -484,7 +475,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/AfterTest.java</url>
-          <line>36</line>
+          <line>28</line>
           <properties class="AfterTest" method="itShouldSelectBulbasaur">
             <option name="EMULATED" value="true" />
           </properties>
@@ -513,73 +504,10 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ClickMeTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/XPathTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="543">
-          <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ClickMeBabyWebTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
-          <caret line="35" column="5" selection-start-line="27" selection-start-column="2" selection-end-line="35" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$JAVATRAINING$/JDK/Contents/Home/src.zip!/sun/reflect/NativeMethodAccessorImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="426">
           <caret line="61" selection-start-line="61" selection-end-line="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/RadioButtonTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="39" column="80" lean-forward="true" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/AlertTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="29" column="11" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="29" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TableTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="70" column="70" selection-start-line="70" selection-start-column="70" selection-end-line="70" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/NemenneTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="51" column="45" lean-forward="true" selection-start-line="51" selection-start-column="45" selection-end-line="51" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/RefreshTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="37" column="8" lean-forward="true" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ColorCheckTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="67" column="90" selection-start-line="67" selection-start-column="90" selection-end-line="67" selection-end-column="90" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/WaitingForElementTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-474">
-          <caret line="19" column="59" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="52" />
         </state>
       </provider>
     </entry>
@@ -590,59 +518,129 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/SelectPokemonTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="18" column="45" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/NavBarTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="34" column="50" lean-forward="true" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DimensionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="26" column="49" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/AfterTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="30" column="64" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="30" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DragAndDropElementTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="44" column="9" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/RegistrationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="40" column="38" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/HoverStateTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="98" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="97" />
+        <state relative-caret-position="234">
+          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/CalculatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="72" column="7" lean-forward="true" selection-start-line="72" selection-start-column="7" selection-end-line="72" selection-end-column="91" />
+        <state relative-caret-position="-846">
+          <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/AlertTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="53" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="8" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ClickMeBabyWebTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="49" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ColorCheckTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="36" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DragAndDropElementTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/RadioButtonTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="56" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/NemenneTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/NavBarTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/HoverStateTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="11" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/MainTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/RegistrationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/RefreshTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DimensionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="29" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TableTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SelectPokemonTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/WaitingForElementTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-144">
+          <caret line="4" column="51" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/XPathTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="48" lean-forward="true" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
         </state>
       </provider>
     </entry>
