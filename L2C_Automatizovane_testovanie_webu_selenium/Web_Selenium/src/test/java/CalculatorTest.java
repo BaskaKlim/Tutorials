@@ -23,8 +23,6 @@ public class CalculatorTest {
         driver.quit();
     }
 
-
-
     @Test
     public void testSum() {
         checkSum("6", "2", "8");
@@ -45,15 +43,11 @@ public class CalculatorTest {
     @Test
     public void testMultiply() {
         //actions
-        driver.findElement(By.id("firstInput")).clear();
-        driver.findElement(By.id("firstInput")).sendKeys("6");
-        driver.findElement(By.id("secondInput")).clear();
-        driver.findElement(By.id("secondInput")).sendKeys("2");
+        enterImputs("6", "2");
         driver.findElement(By.id("count")).click();
         // validation
         Assert.assertTrue(driver.findElement(By.id("result")).isDisplayed());
         Assert.assertEquals("12", driver.findElement(By.id("result")).getText());
-
 
     }
 
@@ -69,7 +63,6 @@ public class CalculatorTest {
         Assert.assertTrue(driver.findElement(By.id("result")).isDisplayed());
         Assert.assertEquals("3", driver.findElement(By.id("result")).getText());
 
-
     }
 
     @Test
@@ -81,29 +74,31 @@ public class CalculatorTest {
 
     }
 
-    public void checkSum(String firstInput, String secondInput, String expectedResult){
-        //actions
+    /************** Methods ******************/
+
+    private void enterImputs(String firstInput, String secondInput) {
         driver.findElement(By.id("firstInput")).clear();
         driver.findElement(By.id("firstInput")).sendKeys(firstInput);
         driver.findElement(By.id("secondInput")).clear();
         driver.findElement(By.id("secondInput")).sendKeys(secondInput);
+    }
+
+    public void checkSum(String firstInput, String secondInput, String expectedResult) {
+        //actions
+        enterImputs(firstInput, secondInput);
         driver.findElement(By.id("count")).click();
         // validation
         Assert.assertTrue(driver.findElement(By.id("result")).isDisplayed());
         Assert.assertEquals(expectedResult, driver.findElement(By.id("result")).getText());
     }
 
-    private void checkDeduct(String firstInput, String secondInput,  String expectedResult) {
+    private void checkDeduct(String firstInput, String secondInput, String expectedResult) {
         //actions
-        driver.findElement(By.id("firstInput")).clear();
-        driver.findElement(By.id("firstInput")).sendKeys(firstInput);
-        driver.findElement(By.id("secondInput")).clear();
-        driver.findElement(By.id("secondInput")).sendKeys(secondInput);
+        enterImputs(firstInput, secondInput);
         driver.findElement(By.id("deduct")).click();
         // validation
         Assert.assertTrue(driver.findElement(By.id("result")).isDisplayed());
         Assert.assertEquals(expectedResult, driver.findElement(By.id("result")).getText());
     }
-
 
 }
