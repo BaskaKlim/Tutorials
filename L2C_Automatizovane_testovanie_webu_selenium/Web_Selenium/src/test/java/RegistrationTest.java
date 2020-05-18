@@ -37,19 +37,22 @@ public class RegistrationTest {
     }
 
     @Test
-     //TODO: over ze vsetky input fieldy sa zafarbia na cerveno ak sa nevyplnia
-    public void testInputErrorBorder(){
+    //TODO: over ze vsetky input fieldy sa zafarbia na cerveno ak sa nevyplnia
+    public void testInputErrorBorder() {
         driver.findElement(By.xpath("//button[@type='submit']")).click();
 
         //samotny imput nema triedu, ale ich rodic div ano, preto si vyberiem list divov obsahujucich inputy
-        List<WebElement> formFields =  driver.findElements(By.xpath("//div[input]"));
+        List<WebElement> formFields = driver.findElements(By.xpath("//div[input]"));
         for (WebElement formField : formFields) {
             //vytiahnem si z tychto elementov atribut class a overim, ze ma zobrazenu has-error triedu ak je nevyplneny
             Assert.assertTrue(formField.getAttribute("class").contains("has-error"));
 
         }
-    }
 
+        // overim este checkbox
+        WebElement checkbox = driver.findElement(By.xpath("//div[label[input[@id='checkbox']]]"));
+        Assert.assertTrue(checkbox.getAttribute("class").contains("has-error"));
+    }
 
     @After
     public void tearDown() throws Exception {
